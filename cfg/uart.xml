@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uart>
+	<group id="CH0">
+		<parameter name="CODE">S04</parameter>
+		<parameter name="COM">COM0</parameter>
+		<parameter name="DA">4001</parameter>
+		<parameter name="RA" />
+		<parameter name="DT">INT</parameter>
+		<parameter name="INUSE">EN</parameter>
+		<parameter name="ISCONV">DIS</parameter>
+		<parameter name="USEFML">DIS</parameter>
+		<parameter name="FMLEXPR" />
+	</group>
+</uart>

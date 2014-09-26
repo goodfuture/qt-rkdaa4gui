@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<analog>
+	<group id="CH0">
+		<parameter name="TYPE">0-5V</parameter>
+		<parameter name="CODE">01</parameter>
+		<parameter name="ULV" />
+		<parameter name="LLV" />
+		<parameter name="UTV" />
+		<parameter name="LTV" />
+		<parameter name="FMLEXPR" />
+		<parameter name="INUSE">EN</parameter>
+		<parameter name="ISCONV">DIS</parameter>
+		<parameter name="USEFML">DIS</parameter>
+	</group>
+	<group id="CH1">
+		<parameter name="TYPE">4-20MA</parameter>
+		<parameter name="CODE" />
+		<parameter name="ULV" />
+		<parameter name="LLV" />
+		<parameter name="UTV" />
+		<parameter name="LTV" />
+		<parameter name="FMLEXPR" />
+		<parameter name="INUSE">EN</parameter>
+		<parameter name="ISCONV">DIS</parameter>
+		<parameter name="USEFML">DIS</parameter>
+	</group>
+</analog>

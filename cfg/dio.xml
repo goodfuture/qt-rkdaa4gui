@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dio>
+	<group id="DO0">
+		<parameter name="STATE">OFF</parameter>
+		<parameter name="INUSE">DIS</parameter>
+		<parameter name="CODE">P0O</parameter>
+	</group>
+	<group id="DO1">
+		<parameter name="STATE">OFF</parameter>
+		<parameter name="INUSE">EN</parameter>
+		<parameter name="CODE">P1O</parameter>
+	</group>
+	<group id="DO2">
+		<parameter name="STATE">OFF</parameter>
+		<parameter name="INUSE">DIS</parameter>
+		<parameter name="CODE">P2O</parameter>
+	</group>
+	<group id="DO3">
+		<parameter name="STATE">OFF</parameter>
+		<parameter name="INUSE">DIS</parameter>
+		<parameter name="CODE">P3O</parameter>
+	</group>
+	<group id="DO4">
+		<parameter name="STATE">OFF</parameter>
+		<parameter name="INUSE">DIS</parameter>
+		<parameter name="CODE">P4O</parameter>
+	</group>
+	<group id="DO5">
+		<parameter name="STATE">OFF</parameter>
+		<parameter name="INUSE">DIS</parameter>
+		<parameter name="CODE">P5O</parameter>
+	</group>
+	<group id="DO6">
+		<parameter name="STATE">OFF</parameter>
+		<parameter name="INUSE">DIS</parameter>
+		<parameter name="CODE">P6O</parameter>
+	</group>
+	<group id="DO7">
+		<parameter name="STATE">OFF</parameter>
+		<parameter name="INUSE">DIS</parameter>
+		<parameter name="CODE">P7O</parameter>
+	</group>
+	<group id="DI0">
+		<parameter name="INUSE">DIS</parameter>
+		<parameter name="CODE">P0I</parameter>
+	</group>
+	<group id="DI1">
+		<parameter name="INUSE">DIS</parameter>
+		<parameter name="CODE">P1I</parameter>
+	</group>
+	<group id="DI2">
+		<parameter name="INUSE">EN</parameter>
+		<parameter name="CODE">P2I</parameter>
+	</group>
+	<group id="DI3">
+		<parameter name="INUSE">DIS</parameter>
+		<parameter name="CODE">P3I</parameter>
+	</group>
+	<group id="DI4">
+		<parameter name="INUSE">DIS</parameter>
+		<parameter name="CODE">P4I</parameter>
+	</group>
+	<group id="DI5">
+		<parameter name="INUSE">DIS</parameter>
+		<parameter name="CODE">P5I</parameter>
+	</group>
+	<group id="DI6">
+		<parameter name="INUSE">EN</parameter>
+		<parameter name="CODE">P6I</parameter>
+	</group>
+	<group id="DI7">
+		<parameter name="INUSE">DIS</parameter>
+		<parameter name="CODE">P7I</parameter>
+	</group>
+</dio>

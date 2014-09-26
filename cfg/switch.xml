@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<switch>
+	<group id="SwitchControl-CH0">
+		<parameter name="state">EN</parameter>
+	</group>
+	<group id="SwitchControl-CH1">
+		<parameter name="state">EN</parameter>
+	</group>
+	<group id="SwitchControl-CH2">
+		<parameter name="state">EN</parameter>
+	</group>
+	<group id="SwitchControl-CH3">
+		<parameter name="state">DIS</parameter>
+	</group>
+	<group id="SwitchControl-CH4">
+		<parameter name="state">EN</parameter>
+	</group>
+	<group id="SwitchControl-CH5">
+		<parameter name="state">EN</parameter>
+	</group>
+	<group id="SwitchControl-CH6">
+		<parameter name="state">EN</parameter>
+	</group>
+	<group id="SwitchControl-CH7">
+		<parameter name="state">DIS</parameter>
+	</group>
+</switch>

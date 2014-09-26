@@ -1,0 +1,1542 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AI_CALIB_FILE	common/rkcom.h	18;"	d
+AI_CFG_FILE	common/rkcom.h	17;"	d
+AI_DEV_NAME_PREFIX	common/rkcom.h	22;"	d
+AI_NUM	common/rkcom.h	27;"	d
+ALARM_E	common/rkcom.h	/^	ALARM_E,$/;"	e	enum:__anon1
+ALARM_H	common/rkcom.h	/^	ALARM_H, \/* High *\/$/;"	e	enum:__anon1
+ALARM_L	common/rkcom.h	/^	ALARM_L, \/* Low *\/$/;"	e	enum:__anon1
+ALARM_N	common/rkcom.h	/^	ALARM_N = 0, \/* Normal *\/$/;"	e	enum:__anon1
+ALARM_T	common/rkcom.h	/^} ALARM_T;$/;"	t	typeref:enum:__anon1
+ALIGN	common/rkfifo.c	18;"	d	file:
+AR	Makefile	/^AR       = ar cqs$/;"	m
+ARG_CFG_DIR_OFFSET	include/rktype.h	11;"	d
+ARG_DYN_LIB_OFFSET	include/rktype.h	12;"	d
+ARG_MSG_DB_PATH_OFFSET	include/rktype.h	14;"	d
+ARG_RTD_DB_PATH_OFFSET	include/rktype.h	13;"	d
+AxisXOffset	include/rkplotter.h	/^		enum { AxisXOffset= 10, AxisYOffset = 30, TextZoneHeight = 70};$/;"	e	enum:rkPlotter::__anon4
+AxisYOffset	include/rkplotter.h	/^		enum { AxisXOffset= 10, AxisYOffset = 30, TextZoneHeight = 70};$/;"	e	enum:rkPlotter::__anon4
+BottomLeft	include/rkfrm.h	/^			BottomLeft = 0x02,$/;"	e	enum:rkFrame::Position
+BottomRight	include/rkfrm.h	/^			BottomRight = 0x03,$/;"	e	enum:rkFrame::Position
+CC	Makefile	/^CC       = arm-linux-gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS   = -pipe -D__ARM__ -O2  -DQT_NO_DEBUG -DQT_SHARED -DQT_THREAD_SUPPORT$/;"	m
+CHK_DIR_EXISTS	Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+COM_DEV_NAME_PREFIX	common/rkcom.h	23;"	d
+COM_NUM	common/rkcom.h	25;"	d
+COPY	Makefile	/^COPY     = cp -f$/;"	m
+COPY_DIR	Makefile	/^COPY_DIR = $(COPY) -R$/;"	m
+COPY_FILE	Makefile	/^COPY_FILE= $(COPY)$/;"	m
+CORE_PROG_EXIT_BIT_MASK	common/rkshm.h	87;"	d
+CORE_PROG_PATH	common/rkcom.h	5;"	d
+CXX	Makefile	/^CXX      = arm-linux-g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -pipe -D__ARM__ -DQWS -fno-exceptions -fno-rtti -O2  -DQT_NO_DEBUG -DQT_SHARED -DQT_THREAD_SUPPORT$/;"	m
+DATA_SIZE	common/rkshm.h	20;"	d
+DAV_OFFSET	common/rkshm.h	51;"	d
+DEF_CFG_FILE_DIR	common/rkcom.h	8;"	d
+DEF_DYN_LIB_DIR	common/rkcom.h	11;"	d
+DEF_MNT_DIR	common/rkusb.h	4;"	d
+DEF_MSG_DB_PATH	common/rkcom.h	10;"	d
+DEF_RTD_DB_PATH	common/rkcom.h	9;"	d
+DEL_DIR	Makefile	/^DEL_DIR  = rmdir$/;"	m
+DEL_FILE	Makefile	/^DEL_FILE = rm -f$/;"	m
+DESTDIR	Makefile	/^DESTDIR  = $/;"	m
+DEV_PART_FILE	common/rkusb.h	8;"	d
+DIO_CFG_FILE	common/rkcom.h	16;"	d
+DIO_DEV_INTERFACE	common/rkcom.h	21;"	d
+DISABLE_DTU_BIT_MASK	common/rkshm.h	86;"	d
+DIST	Makefile	/^DIST	   = GUI.pro$/;"	m
+DI_NUM	common/rkcom.h	28;"	d
+DO_NUM	common/rkcom.h	29;"	d
+DTU_CFG_PROG_PATH	common/rkcom.h	4;"	d
+DTU_DEV_INTERFACE	common/rkcom.h	20;"	d
+EI_NUM	common/rkcom.h	26;"	d
+FIFO_OFFSET	common/rkshm.h	22;"	d
+FIFO_SIZE	common/rkshm.h	21;"	d
+FILE_DEV_CHECK	common/rkusb.h	6;"	d
+FILE_MNT_CHECK	common/rkusb.h	7;"	d
+FORMS	Makefile	/^FORMS = ui\/rkmsgview.ui$/;"	m
+Func	include/rktype.h	/^typedef char *(*Func)(void);$/;"	t
+GUI_PROG_PATH	common/rkcom.h	6;"	d
+GUI_VERSION	include/rktype.h	9;"	d
+GZIP	Makefile	/^GZIP     = gzip -9f$/;"	m
+HAV_OFFSET	common/rkshm.h	50;"	d
+HEADERS	Makefile	/^HEADERS = common\/rkcalib.h \\$/;"	m
+IMG_DIR	include/rktype.h	17;"	d
+IMG_DIR	include/rktype.h	19;"	d
+INCPATH	Makefile	/^INCPATH  = -I\/home\/kangqi\/DAP4\/GUI\/mkspecs\/arm -I. -I. -Iinclude -Icommon -Iui -I$(QTDIR)\/include$/;"	m
+INSTALL_DIR	Makefile	/^INSTALL_DIR = $(COPY_DIR)$/;"	m
+INSTALL_FILE	Makefile	/^INSTALL_FILE= $(COPY_FILE)$/;"	m
+IconDropped	include/rkfrm.h	/^			IconDropped		= 0x04,$/;"	e	enum:rkFrame::IconType
+IconKeyboard	include/rkfrm.h	/^			IconKeyboard	= 0x02,$/;"	e	enum:rkFrame::IconType
+IconNone	include/rkfrm.h	/^			IconNone		= 0x00,$/;"	e	enum:rkFrame::IconType
+IconType	include/rkfrm.h	/^		enum IconType {$/;"	g	class:rkFrame
+IconUsb	include/rkfrm.h	/^			IconUsb			= 0x03,$/;"	e	enum:rkFrame::IconType
+IconWarning	include/rkfrm.h	/^			IconWarning		= 0x01,$/;"	e	enum:rkFrame::IconType
+LCD_BACK_LIGHT_PATH	src/rktrdmsg.cpp	20;"	d	file:
+LEX	Makefile	/^LEX      = flex$/;"	m
+LEXFLAGS	Makefile	/^LEXFLAGS = $/;"	m
+LFLAGS	Makefile	/^LFLAGS   = -L.\/depend  -Wl,-rpath,$(QTDIR)\/lib$/;"	m
+LIBS	Makefile	/^LIBS     = $(SUBLIBS) -L$(QTDIR)\/lib -lmxml -lrt -lsqlite3 -lqte-mt$/;"	m
+LINK	Makefile	/^LINK     = arm-linux-g++$/;"	m
+MAV_OFFSET	common/rkshm.h	52;"	d
+MAX_SAMPLES	include/rkfmscrcalib.h	9;"	d
+MKDIR	Makefile	/^MKDIR    = mkdir -p$/;"	m
+MOC	Makefile	/^MOC      = $(QTDIR)\/bin\/moc$/;"	m
+MOVE	Makefile	/^MOVE     = mv -f$/;"	m
+MSG_QURY	common/rkshm.h	/^	MSG_QURY = 0,$/;"	e	enum:__anon3
+NET_CFG_FILE	common/rkcom.h	14;"	d
+NR_STEPS	include/rkfmscrcalib.h	10;"	d
+OBJECTS	Makefile	/^OBJECTS = rkcalib.o \\$/;"	m
+OBJECTS_DIR	Makefile	/^OBJECTS_DIR = .\/$/;"	m
+OBJMOC	Makefile	/^OBJMOC = moc_rkapp.o \\$/;"	m
+PlotSettings	include/rkplotter.h	/^class PlotSettings$/;"	c
+PlotSettings	src/rkplotter.cpp	/^PlotSettings::PlotSettings()$/;"	f	class:PlotSettings
+Position	include/rkfrm.h	/^		enum Position {$/;"	g	class:rkFrame
+QMAKE	Makefile	/^QMAKE    = qmake$/;"	m
+QMAKE_TARGET	Makefile	/^QMAKE_TARGET = GUI$/;"	m
+QPLATFORMDEFS_H	mkspecs/arm/qplatformdefs.h	2;"	d
+QPLATFORMDEFS_H	mkspecs/x86/qplatformdefs.h	2;"	d
+QT_ACCESS	mkspecs/arm/qplatformdefs.h	77;"	d
+QT_ACCESS	mkspecs/x86/qplatformdefs.h	77;"	d
+QT_CHDIR	mkspecs/arm/qplatformdefs.h	79;"	d
+QT_CHDIR	mkspecs/x86/qplatformdefs.h	79;"	d
+QT_CLOSE	mkspecs/arm/qplatformdefs.h	73;"	d
+QT_CLOSE	mkspecs/x86/qplatformdefs.h	73;"	d
+QT_FILENO	mkspecs/arm/qplatformdefs.h	71;"	d
+QT_FILENO	mkspecs/x86/qplatformdefs.h	71;"	d
+QT_FSTAT	mkspecs/arm/qplatformdefs.h	66;"	d
+QT_FSTAT	mkspecs/x86/qplatformdefs.h	66;"	d
+QT_GETCWD	mkspecs/arm/qplatformdefs.h	78;"	d
+QT_GETCWD	mkspecs/x86/qplatformdefs.h	78;"	d
+QT_LSEEK	mkspecs/arm/qplatformdefs.h	74;"	d
+QT_LSEEK	mkspecs/x86/qplatformdefs.h	74;"	d
+QT_MITSHM	mkspecs/x86/qplatformdefs.h	105;"	d
+QT_MKDIR	mkspecs/arm/qplatformdefs.h	80;"	d
+QT_MKDIR	mkspecs/x86/qplatformdefs.h	80;"	d
+QT_OPEN	mkspecs/arm/qplatformdefs.h	72;"	d
+QT_OPEN	mkspecs/x86/qplatformdefs.h	72;"	d
+QT_OPEN_APPEND	mkspecs/arm/qplatformdefs.h	87;"	d
+QT_OPEN_APPEND	mkspecs/x86/qplatformdefs.h	87;"	d
+QT_OPEN_CREAT	mkspecs/arm/qplatformdefs.h	85;"	d
+QT_OPEN_CREAT	mkspecs/x86/qplatformdefs.h	85;"	d
+QT_OPEN_RDONLY	mkspecs/arm/qplatformdefs.h	82;"	d
+QT_OPEN_RDONLY	mkspecs/x86/qplatformdefs.h	82;"	d
+QT_OPEN_RDWR	mkspecs/arm/qplatformdefs.h	84;"	d
+QT_OPEN_RDWR	mkspecs/x86/qplatformdefs.h	84;"	d
+QT_OPEN_TRUNC	mkspecs/arm/qplatformdefs.h	86;"	d
+QT_OPEN_TRUNC	mkspecs/x86/qplatformdefs.h	86;"	d
+QT_OPEN_WRONLY	mkspecs/arm/qplatformdefs.h	83;"	d
+QT_OPEN_WRONLY	mkspecs/x86/qplatformdefs.h	83;"	d
+QT_READ	mkspecs/arm/qplatformdefs.h	75;"	d
+QT_READ	mkspecs/x86/qplatformdefs.h	75;"	d
+QT_RMDIR	mkspecs/arm/qplatformdefs.h	81;"	d
+QT_RMDIR	mkspecs/x86/qplatformdefs.h	81;"	d
+QT_SIGNAL_ARGS	mkspecs/arm/qplatformdefs.h	91;"	d
+QT_SIGNAL_ARGS	mkspecs/x86/qplatformdefs.h	91;"	d
+QT_SIGNAL_IGNORE	mkspecs/arm/qplatformdefs.h	92;"	d
+QT_SIGNAL_IGNORE	mkspecs/x86/qplatformdefs.h	92;"	d
+QT_SIGNAL_RETTYPE	mkspecs/arm/qplatformdefs.h	90;"	d
+QT_SIGNAL_RETTYPE	mkspecs/x86/qplatformdefs.h	90;"	d
+QT_SNPRINTF	mkspecs/arm/qplatformdefs.h	101;"	d
+QT_SNPRINTF	mkspecs/x86/qplatformdefs.h	101;"	d
+QT_SOCKLEN_T	mkspecs/arm/qplatformdefs.h	95;"	d
+QT_SOCKLEN_T	mkspecs/arm/qplatformdefs.h	97;"	d
+QT_SOCKLEN_T	mkspecs/x86/qplatformdefs.h	95;"	d
+QT_SOCKLEN_T	mkspecs/x86/qplatformdefs.h	97;"	d
+QT_STAT	mkspecs/arm/qplatformdefs.h	65;"	d
+QT_STAT	mkspecs/x86/qplatformdefs.h	65;"	d
+QT_STATBUF	mkspecs/arm/qplatformdefs.h	63;"	d
+QT_STATBUF	mkspecs/x86/qplatformdefs.h	63;"	d
+QT_STATBUF4TSTAT	mkspecs/arm/qplatformdefs.h	64;"	d
+QT_STATBUF4TSTAT	mkspecs/x86/qplatformdefs.h	64;"	d
+QT_STAT_DIR	mkspecs/arm/qplatformdefs.h	68;"	d
+QT_STAT_DIR	mkspecs/x86/qplatformdefs.h	68;"	d
+QT_STAT_LNK	mkspecs/arm/qplatformdefs.h	70;"	d
+QT_STAT_LNK	mkspecs/x86/qplatformdefs.h	70;"	d
+QT_STAT_MASK	mkspecs/arm/qplatformdefs.h	69;"	d
+QT_STAT_MASK	mkspecs/x86/qplatformdefs.h	69;"	d
+QT_STAT_REG	mkspecs/arm/qplatformdefs.h	67;"	d
+QT_STAT_REG	mkspecs/x86/qplatformdefs.h	67;"	d
+QT_VSNPRINTF	mkspecs/arm/qplatformdefs.h	102;"	d
+QT_VSNPRINTF	mkspecs/x86/qplatformdefs.h	102;"	d
+QT_WRITE	mkspecs/arm/qplatformdefs.h	76;"	d
+QT_WRITE	mkspecs/x86/qplatformdefs.h	76;"	d
+QUERY_FINISH_BIT_MASK	include/rktype.h	24;"	d
+QUERY_SUCCESS_BIT_MASK	include/rktype.h	25;"	d
+QUERY_T	common/rkshm.h	/^} QUERY_T;$/;"	t	typeref:enum:__anon3
+RANLIB	Makefile	/^RANLIB   = $/;"	m
+RELOAD_USR_CFG_BIT_MASK	common/rkshm.h	85;"	d
+RTV_OFFSET	common/rkshm.h	48;"	d
+RkIfaceGetParam	src/rkifaceoper.cpp	/^char *RkIfaceGetParam(const char *iface, const char *param)$/;"	f
+RkIfaceSetParam	src/rkifaceoper.cpp	/^int RkIfaceSetParam(const char *iface, const char *param, const char *val)$/;"	f
+SCalib	common/rkcalib.h	/^struct SCalib {$/;"	s
+SER_CFG_FILE	common/rkcom.h	15;"	d
+SER_QURY	common/rkshm.h	/^	SER_QURY,$/;"	e	enum:__anon3
+SHM_DEV_FILE	common/rkshm.h	25;"	d
+SHM_SIZE	common/rkshm.h	23;"	d
+SHM_TYPE	common/rkshm.h	/^} SHM_TYPE;$/;"	t	typeref:enum:__anon2
+SOURCES	Makefile	/^SOURCES = common\/rkcalib.c \\$/;"	m
+SQLITE3_TEXT	include/sqlite3.h	3671;"	d
+SQLITE_ABORT	include/sqlite3.h	405;"	d
+SQLITE_ABORT_ROLLBACK	include/sqlite3.h	490;"	d
+SQLITE_ACCESS_EXISTS	include/sqlite3.h	1160;"	d
+SQLITE_ACCESS_READ	include/sqlite3.h	1162;"	d
+SQLITE_ACCESS_READWRITE	include/sqlite3.h	1161;"	d
+SQLITE_ALTER_TABLE	include/sqlite3.h	2509;"	d
+SQLITE_ANALYZE	include/sqlite3.h	2511;"	d
+SQLITE_ANY	include/sqlite3.h	4029;"	d
+SQLITE_API	include/sqlite3.h	53;"	d
+SQLITE_ATTACH	include/sqlite3.h	2507;"	d
+SQLITE_AUTH	include/sqlite3.h	424;"	d
+SQLITE_BLOB	include/sqlite3.h	3664;"	d
+SQLITE_BUSY	include/sqlite3.h	406;"	d
+SQLITE_BUSY_RECOVERY	include/sqlite3.h	482;"	d
+SQLITE_CANTOPEN	include/sqlite3.h	415;"	d
+SQLITE_CANTOPEN_FULLPATH	include/sqlite3.h	485;"	d
+SQLITE_CANTOPEN_ISDIR	include/sqlite3.h	484;"	d
+SQLITE_CANTOPEN_NOTEMPDIR	include/sqlite3.h	483;"	d
+SQLITE_CHECKPOINT_FULL	include/sqlite3.h	7082;"	d
+SQLITE_CHECKPOINT_PASSIVE	include/sqlite3.h	7081;"	d
+SQLITE_CHECKPOINT_RESTART	include/sqlite3.h	7083;"	d
+SQLITE_CONFIG_COVERING_INDEX_SCAN	include/sqlite3.h	1696;"	d
+SQLITE_CONFIG_GETMALLOC	include/sqlite3.h	1681;"	d
+SQLITE_CONFIG_GETMUTEX	include/sqlite3.h	1687;"	d
+SQLITE_CONFIG_GETPCACHE	include/sqlite3.h	1691;"	d
+SQLITE_CONFIG_GETPCACHE2	include/sqlite3.h	1695;"	d
+SQLITE_CONFIG_HEAP	include/sqlite3.h	1684;"	d
+SQLITE_CONFIG_LOG	include/sqlite3.h	1692;"	d
+SQLITE_CONFIG_LOOKASIDE	include/sqlite3.h	1689;"	d
+SQLITE_CONFIG_MALLOC	include/sqlite3.h	1680;"	d
+SQLITE_CONFIG_MEMSTATUS	include/sqlite3.h	1685;"	d
+SQLITE_CONFIG_MMAP_SIZE	include/sqlite3.h	1698;"	d
+SQLITE_CONFIG_MULTITHREAD	include/sqlite3.h	1678;"	d
+SQLITE_CONFIG_MUTEX	include/sqlite3.h	1686;"	d
+SQLITE_CONFIG_PAGECACHE	include/sqlite3.h	1683;"	d
+SQLITE_CONFIG_PCACHE	include/sqlite3.h	1690;"	d
+SQLITE_CONFIG_PCACHE2	include/sqlite3.h	1694;"	d
+SQLITE_CONFIG_SCRATCH	include/sqlite3.h	1682;"	d
+SQLITE_CONFIG_SERIALIZED	include/sqlite3.h	1679;"	d
+SQLITE_CONFIG_SINGLETHREAD	include/sqlite3.h	1677;"	d
+SQLITE_CONFIG_SQLLOG	include/sqlite3.h	1697;"	d
+SQLITE_CONFIG_URI	include/sqlite3.h	1693;"	d
+SQLITE_CONSTRAINT	include/sqlite3.h	420;"	d
+SQLITE_CONSTRAINT_CHECK	include/sqlite3.h	491;"	d
+SQLITE_CONSTRAINT_COMMITHOOK	include/sqlite3.h	492;"	d
+SQLITE_CONSTRAINT_FOREIGNKEY	include/sqlite3.h	493;"	d
+SQLITE_CONSTRAINT_FUNCTION	include/sqlite3.h	494;"	d
+SQLITE_CONSTRAINT_NOTNULL	include/sqlite3.h	495;"	d
+SQLITE_CONSTRAINT_PRIMARYKEY	include/sqlite3.h	496;"	d
+SQLITE_CONSTRAINT_TRIGGER	include/sqlite3.h	497;"	d
+SQLITE_CONSTRAINT_UNIQUE	include/sqlite3.h	498;"	d
+SQLITE_CONSTRAINT_VTAB	include/sqlite3.h	499;"	d
+SQLITE_COPY	include/sqlite3.h	2516;"	d
+SQLITE_CORRUPT	include/sqlite3.h	412;"	d
+SQLITE_CORRUPT_VTAB	include/sqlite3.h	486;"	d
+SQLITE_CREATE_INDEX	include/sqlite3.h	2484;"	d
+SQLITE_CREATE_TABLE	include/sqlite3.h	2485;"	d
+SQLITE_CREATE_TEMP_INDEX	include/sqlite3.h	2486;"	d
+SQLITE_CREATE_TEMP_TABLE	include/sqlite3.h	2487;"	d
+SQLITE_CREATE_TEMP_TRIGGER	include/sqlite3.h	2488;"	d
+SQLITE_CREATE_TEMP_VIEW	include/sqlite3.h	2489;"	d
+SQLITE_CREATE_TRIGGER	include/sqlite3.h	2490;"	d
+SQLITE_CREATE_VIEW	include/sqlite3.h	2491;"	d
+SQLITE_CREATE_VTABLE	include/sqlite3.h	2512;"	d
+SQLITE_DBCONFIG_ENABLE_FKEY	include/sqlite3.h	1759;"	d
+SQLITE_DBCONFIG_ENABLE_TRIGGER	include/sqlite3.h	1760;"	d
+SQLITE_DBCONFIG_LOOKASIDE	include/sqlite3.h	1758;"	d
+SQLITE_DBSTATUS_CACHE_HIT	include/sqlite3.h	6244;"	d
+SQLITE_DBSTATUS_CACHE_MISS	include/sqlite3.h	6245;"	d
+SQLITE_DBSTATUS_CACHE_USED	include/sqlite3.h	6238;"	d
+SQLITE_DBSTATUS_CACHE_WRITE	include/sqlite3.h	6246;"	d
+SQLITE_DBSTATUS_LOOKASIDE_HIT	include/sqlite3.h	6241;"	d
+SQLITE_DBSTATUS_LOOKASIDE_MISS_FULL	include/sqlite3.h	6243;"	d
+SQLITE_DBSTATUS_LOOKASIDE_MISS_SIZE	include/sqlite3.h	6242;"	d
+SQLITE_DBSTATUS_LOOKASIDE_USED	include/sqlite3.h	6237;"	d
+SQLITE_DBSTATUS_MAX	include/sqlite3.h	6247;"	d
+SQLITE_DBSTATUS_SCHEMA_USED	include/sqlite3.h	6239;"	d
+SQLITE_DBSTATUS_STMT_USED	include/sqlite3.h	6240;"	d
+SQLITE_DELETE	include/sqlite3.h	2492;"	d
+SQLITE_DENY	include/sqlite3.h	2461;"	d
+SQLITE_DEPRECATED	include/sqlite3.h	70;"	d
+SQLITE_DETACH	include/sqlite3.h	2508;"	d
+SQLITE_DONE	include/sqlite3.h	431;"	d
+SQLITE_DROP_INDEX	include/sqlite3.h	2493;"	d
+SQLITE_DROP_TABLE	include/sqlite3.h	2494;"	d
+SQLITE_DROP_TEMP_INDEX	include/sqlite3.h	2495;"	d
+SQLITE_DROP_TEMP_TABLE	include/sqlite3.h	2496;"	d
+SQLITE_DROP_TEMP_TRIGGER	include/sqlite3.h	2497;"	d
+SQLITE_DROP_TEMP_VIEW	include/sqlite3.h	2498;"	d
+SQLITE_DROP_TRIGGER	include/sqlite3.h	2499;"	d
+SQLITE_DROP_VIEW	include/sqlite3.h	2500;"	d
+SQLITE_DROP_VTABLE	include/sqlite3.h	2513;"	d
+SQLITE_EMPTY	include/sqlite3.h	417;"	d
+SQLITE_ERROR	include/sqlite3.h	402;"	d
+SQLITE_EXPERIMENTAL	include/sqlite3.h	71;"	d
+SQLITE_EXTERN	include/sqlite3.h	49;"	d
+SQLITE_FAIL	include/sqlite3.h	7167;"	d
+SQLITE_FCNTL_BUSYHANDLER	include/sqlite3.h	926;"	d
+SQLITE_FCNTL_CHUNK_SIZE	include/sqlite3.h	917;"	d
+SQLITE_FCNTL_FILE_POINTER	include/sqlite3.h	918;"	d
+SQLITE_FCNTL_LOCKSTATE	include/sqlite3.h	912;"	d
+SQLITE_FCNTL_MMAP_SIZE	include/sqlite3.h	928;"	d
+SQLITE_FCNTL_OVERWRITE	include/sqlite3.h	922;"	d
+SQLITE_FCNTL_PERSIST_WAL	include/sqlite3.h	921;"	d
+SQLITE_FCNTL_POWERSAFE_OVERWRITE	include/sqlite3.h	924;"	d
+SQLITE_FCNTL_PRAGMA	include/sqlite3.h	925;"	d
+SQLITE_FCNTL_SIZE_HINT	include/sqlite3.h	916;"	d
+SQLITE_FCNTL_SYNC_OMITTED	include/sqlite3.h	919;"	d
+SQLITE_FCNTL_TEMPFILENAME	include/sqlite3.h	927;"	d
+SQLITE_FCNTL_VFSNAME	include/sqlite3.h	923;"	d
+SQLITE_FCNTL_WIN32_AV_RETRY	include/sqlite3.h	920;"	d
+SQLITE_FLOAT	include/sqlite3.h	3663;"	d
+SQLITE_FORMAT	include/sqlite3.h	425;"	d
+SQLITE_FULL	include/sqlite3.h	414;"	d
+SQLITE_FUNCTION	include/sqlite3.h	2514;"	d
+SQLITE_GET_LOCKPROXYFILE	include/sqlite3.h	913;"	d
+SQLITE_IGNORE	include/sqlite3.h	2462;"	d
+SQLITE_INDEX_CONSTRAINT_EQ	include/sqlite3.h	5286;"	d
+SQLITE_INDEX_CONSTRAINT_GE	include/sqlite3.h	5290;"	d
+SQLITE_INDEX_CONSTRAINT_GT	include/sqlite3.h	5287;"	d
+SQLITE_INDEX_CONSTRAINT_LE	include/sqlite3.h	5288;"	d
+SQLITE_INDEX_CONSTRAINT_LT	include/sqlite3.h	5289;"	d
+SQLITE_INDEX_CONSTRAINT_MATCH	include/sqlite3.h	5291;"	d
+SQLITE_INSERT	include/sqlite3.h	2501;"	d
+SQLITE_INTEGER	include/sqlite3.h	3662;"	d
+SQLITE_INTERNAL	include/sqlite3.h	403;"	d
+SQLITE_INTERRUPT	include/sqlite3.h	410;"	d
+SQLITE_IOCAP_ATOMIC	include/sqlite3.h	557;"	d
+SQLITE_IOCAP_ATOMIC16K	include/sqlite3.h	563;"	d
+SQLITE_IOCAP_ATOMIC1K	include/sqlite3.h	559;"	d
+SQLITE_IOCAP_ATOMIC2K	include/sqlite3.h	560;"	d
+SQLITE_IOCAP_ATOMIC32K	include/sqlite3.h	564;"	d
+SQLITE_IOCAP_ATOMIC4K	include/sqlite3.h	561;"	d
+SQLITE_IOCAP_ATOMIC512	include/sqlite3.h	558;"	d
+SQLITE_IOCAP_ATOMIC64K	include/sqlite3.h	565;"	d
+SQLITE_IOCAP_ATOMIC8K	include/sqlite3.h	562;"	d
+SQLITE_IOCAP_POWERSAFE_OVERWRITE	include/sqlite3.h	569;"	d
+SQLITE_IOCAP_SAFE_APPEND	include/sqlite3.h	566;"	d
+SQLITE_IOCAP_SEQUENTIAL	include/sqlite3.h	567;"	d
+SQLITE_IOCAP_UNDELETABLE_WHEN_OPEN	include/sqlite3.h	568;"	d
+SQLITE_IOERR	include/sqlite3.h	411;"	d
+SQLITE_IOERR_ACCESS	include/sqlite3.h	469;"	d
+SQLITE_IOERR_BLOCKED	include/sqlite3.h	467;"	d
+SQLITE_IOERR_CHECKRESERVEDLOCK	include/sqlite3.h	470;"	d
+SQLITE_IOERR_CLOSE	include/sqlite3.h	472;"	d
+SQLITE_IOERR_DELETE	include/sqlite3.h	466;"	d
+SQLITE_IOERR_DELETE_NOENT	include/sqlite3.h	479;"	d
+SQLITE_IOERR_DIR_CLOSE	include/sqlite3.h	473;"	d
+SQLITE_IOERR_DIR_FSYNC	include/sqlite3.h	461;"	d
+SQLITE_IOERR_FSTAT	include/sqlite3.h	463;"	d
+SQLITE_IOERR_FSYNC	include/sqlite3.h	460;"	d
+SQLITE_IOERR_LOCK	include/sqlite3.h	471;"	d
+SQLITE_IOERR_MMAP	include/sqlite3.h	480;"	d
+SQLITE_IOERR_NOMEM	include/sqlite3.h	468;"	d
+SQLITE_IOERR_RDLOCK	include/sqlite3.h	465;"	d
+SQLITE_IOERR_READ	include/sqlite3.h	457;"	d
+SQLITE_IOERR_SEEK	include/sqlite3.h	478;"	d
+SQLITE_IOERR_SHMLOCK	include/sqlite3.h	476;"	d
+SQLITE_IOERR_SHMMAP	include/sqlite3.h	477;"	d
+SQLITE_IOERR_SHMOPEN	include/sqlite3.h	474;"	d
+SQLITE_IOERR_SHMSIZE	include/sqlite3.h	475;"	d
+SQLITE_IOERR_SHORT_READ	include/sqlite3.h	458;"	d
+SQLITE_IOERR_TRUNCATE	include/sqlite3.h	462;"	d
+SQLITE_IOERR_UNLOCK	include/sqlite3.h	464;"	d
+SQLITE_IOERR_WRITE	include/sqlite3.h	459;"	d
+SQLITE_LAST_ERRNO	include/sqlite3.h	915;"	d
+SQLITE_LIMIT_ATTACHED	include/sqlite3.h	3013;"	d
+SQLITE_LIMIT_COLUMN	include/sqlite3.h	3008;"	d
+SQLITE_LIMIT_COMPOUND_SELECT	include/sqlite3.h	3010;"	d
+SQLITE_LIMIT_EXPR_DEPTH	include/sqlite3.h	3009;"	d
+SQLITE_LIMIT_FUNCTION_ARG	include/sqlite3.h	3012;"	d
+SQLITE_LIMIT_LENGTH	include/sqlite3.h	3006;"	d
+SQLITE_LIMIT_LIKE_PATTERN_LENGTH	include/sqlite3.h	3014;"	d
+SQLITE_LIMIT_SQL_LENGTH	include/sqlite3.h	3007;"	d
+SQLITE_LIMIT_TRIGGER_DEPTH	include/sqlite3.h	3016;"	d
+SQLITE_LIMIT_VARIABLE_NUMBER	include/sqlite3.h	3015;"	d
+SQLITE_LIMIT_VDBE_OP	include/sqlite3.h	3011;"	d
+SQLITE_LOCKED	include/sqlite3.h	407;"	d
+SQLITE_LOCKED_SHAREDCACHE	include/sqlite3.h	481;"	d
+SQLITE_LOCK_EXCLUSIVE	include/sqlite3.h	582;"	d
+SQLITE_LOCK_NONE	include/sqlite3.h	578;"	d
+SQLITE_LOCK_PENDING	include/sqlite3.h	581;"	d
+SQLITE_LOCK_RESERVED	include/sqlite3.h	580;"	d
+SQLITE_LOCK_SHARED	include/sqlite3.h	579;"	d
+SQLITE_MISMATCH	include/sqlite3.h	421;"	d
+SQLITE_MISUSE	include/sqlite3.h	422;"	d
+SQLITE_MUTEX_FAST	include/sqlite3.h	5900;"	d
+SQLITE_MUTEX_RECURSIVE	include/sqlite3.h	5901;"	d
+SQLITE_MUTEX_STATIC_LRU	include/sqlite3.h	5907;"	d
+SQLITE_MUTEX_STATIC_LRU2	include/sqlite3.h	5908;"	d
+SQLITE_MUTEX_STATIC_MASTER	include/sqlite3.h	5902;"	d
+SQLITE_MUTEX_STATIC_MEM	include/sqlite3.h	5903;"	d
+SQLITE_MUTEX_STATIC_MEM2	include/sqlite3.h	5904;"	d
+SQLITE_MUTEX_STATIC_OPEN	include/sqlite3.h	5905;"	d
+SQLITE_MUTEX_STATIC_PMEM	include/sqlite3.h	5909;"	d
+SQLITE_MUTEX_STATIC_PRNG	include/sqlite3.h	5906;"	d
+SQLITE_NOLFS	include/sqlite3.h	423;"	d
+SQLITE_NOMEM	include/sqlite3.h	408;"	d
+SQLITE_NOTADB	include/sqlite3.h	427;"	d
+SQLITE_NOTFOUND	include/sqlite3.h	413;"	d
+SQLITE_NOTICE	include/sqlite3.h	428;"	d
+SQLITE_NOTICE_RECOVER_ROLLBACK	include/sqlite3.h	501;"	d
+SQLITE_NOTICE_RECOVER_WAL	include/sqlite3.h	500;"	d
+SQLITE_NULL	include/sqlite3.h	3665;"	d
+SQLITE_OK	include/sqlite3.h	400;"	d
+SQLITE_OPEN_AUTOPROXY	include/sqlite3.h	515;"	d
+SQLITE_OPEN_CREATE	include/sqlite3.h	512;"	d
+SQLITE_OPEN_DELETEONCLOSE	include/sqlite3.h	513;"	d
+SQLITE_OPEN_EXCLUSIVE	include/sqlite3.h	514;"	d
+SQLITE_OPEN_FULLMUTEX	include/sqlite3.h	526;"	d
+SQLITE_OPEN_MAIN_DB	include/sqlite3.h	518;"	d
+SQLITE_OPEN_MAIN_JOURNAL	include/sqlite3.h	521;"	d
+SQLITE_OPEN_MASTER_JOURNAL	include/sqlite3.h	524;"	d
+SQLITE_OPEN_MEMORY	include/sqlite3.h	517;"	d
+SQLITE_OPEN_NOMUTEX	include/sqlite3.h	525;"	d
+SQLITE_OPEN_PRIVATECACHE	include/sqlite3.h	528;"	d
+SQLITE_OPEN_READONLY	include/sqlite3.h	510;"	d
+SQLITE_OPEN_READWRITE	include/sqlite3.h	511;"	d
+SQLITE_OPEN_SHAREDCACHE	include/sqlite3.h	527;"	d
+SQLITE_OPEN_SUBJOURNAL	include/sqlite3.h	523;"	d
+SQLITE_OPEN_TEMP_DB	include/sqlite3.h	519;"	d
+SQLITE_OPEN_TEMP_JOURNAL	include/sqlite3.h	522;"	d
+SQLITE_OPEN_TRANSIENT_DB	include/sqlite3.h	520;"	d
+SQLITE_OPEN_URI	include/sqlite3.h	516;"	d
+SQLITE_OPEN_WAL	include/sqlite3.h	529;"	d
+SQLITE_PERM	include/sqlite3.h	404;"	d
+SQLITE_PRAGMA	include/sqlite3.h	2502;"	d
+SQLITE_PROTOCOL	include/sqlite3.h	416;"	d
+SQLITE_RANGE	include/sqlite3.h	426;"	d
+SQLITE_READ	include/sqlite3.h	2503;"	d
+SQLITE_READONLY	include/sqlite3.h	409;"	d
+SQLITE_READONLY_CANTLOCK	include/sqlite3.h	488;"	d
+SQLITE_READONLY_RECOVERY	include/sqlite3.h	487;"	d
+SQLITE_READONLY_ROLLBACK	include/sqlite3.h	489;"	d
+SQLITE_REINDEX	include/sqlite3.h	2510;"	d
+SQLITE_REPLACE	include/sqlite3.h	7169;"	d
+SQLITE_ROLLBACK	include/sqlite3.h	7165;"	d
+SQLITE_ROW	include/sqlite3.h	430;"	d
+SQLITE_SAVEPOINT	include/sqlite3.h	2515;"	d
+SQLITE_SCHEMA	include/sqlite3.h	418;"	d
+SQLITE_SELECT	include/sqlite3.h	2504;"	d
+SQLITE_SET_LOCKPROXYFILE	include/sqlite3.h	914;"	d
+SQLITE_SHM_EXCLUSIVE	include/sqlite3.h	1189;"	d
+SQLITE_SHM_LOCK	include/sqlite3.h	1187;"	d
+SQLITE_SHM_NLOCK	include/sqlite3.h	1199;"	d
+SQLITE_SHM_SHARED	include/sqlite3.h	1188;"	d
+SQLITE_SHM_UNLOCK	include/sqlite3.h	1186;"	d
+SQLITE_SOURCE_ID	include/sqlite3.h	112;"	d
+SQLITE_STATIC	include/sqlite3.h	4240;"	d
+SQLITE_STATUS_MALLOC_COUNT	include/sqlite3.h	6127;"	d
+SQLITE_STATUS_MALLOC_SIZE	include/sqlite3.h	6123;"	d
+SQLITE_STATUS_MEMORY_USED	include/sqlite3.h	6118;"	d
+SQLITE_STATUS_PAGECACHE_OVERFLOW	include/sqlite3.h	6120;"	d
+SQLITE_STATUS_PAGECACHE_SIZE	include/sqlite3.h	6125;"	d
+SQLITE_STATUS_PAGECACHE_USED	include/sqlite3.h	6119;"	d
+SQLITE_STATUS_PARSER_STACK	include/sqlite3.h	6124;"	d
+SQLITE_STATUS_SCRATCH_OVERFLOW	include/sqlite3.h	6122;"	d
+SQLITE_STATUS_SCRATCH_SIZE	include/sqlite3.h	6126;"	d
+SQLITE_STATUS_SCRATCH_USED	include/sqlite3.h	6121;"	d
+SQLITE_STMTSTATUS_AUTOINDEX	include/sqlite3.h	6305;"	d
+SQLITE_STMTSTATUS_FULLSCAN_STEP	include/sqlite3.h	6303;"	d
+SQLITE_STMTSTATUS_SORT	include/sqlite3.h	6304;"	d
+SQLITE_SYNC_DATAONLY	include/sqlite3.h	612;"	d
+SQLITE_SYNC_FULL	include/sqlite3.h	611;"	d
+SQLITE_SYNC_NORMAL	include/sqlite3.h	610;"	d
+SQLITE_TESTCTRL_ALWAYS	include/sqlite3.h	5995;"	d
+SQLITE_TESTCTRL_ASSERT	include/sqlite3.h	5994;"	d
+SQLITE_TESTCTRL_BENIGN_MALLOC_HOOKS	include/sqlite3.h	5992;"	d
+SQLITE_TESTCTRL_BITVEC_TEST	include/sqlite3.h	5990;"	d
+SQLITE_TESTCTRL_EXPLAIN_STMT	include/sqlite3.h	6001;"	d
+SQLITE_TESTCTRL_FAULT_INSTALL	include/sqlite3.h	5991;"	d
+SQLITE_TESTCTRL_FIRST	include/sqlite3.h	5986;"	d
+SQLITE_TESTCTRL_ISKEYWORD	include/sqlite3.h	5998;"	d
+SQLITE_TESTCTRL_LAST	include/sqlite3.h	6002;"	d
+SQLITE_TESTCTRL_LOCALTIME_FAULT	include/sqlite3.h	6000;"	d
+SQLITE_TESTCTRL_OPTIMIZATIONS	include/sqlite3.h	5997;"	d
+SQLITE_TESTCTRL_PENDING_BYTE	include/sqlite3.h	5993;"	d
+SQLITE_TESTCTRL_PRNG_RESET	include/sqlite3.h	5989;"	d
+SQLITE_TESTCTRL_PRNG_RESTORE	include/sqlite3.h	5988;"	d
+SQLITE_TESTCTRL_PRNG_SAVE	include/sqlite3.h	5987;"	d
+SQLITE_TESTCTRL_RESERVE	include/sqlite3.h	5996;"	d
+SQLITE_TESTCTRL_SCRATCHMALLOC	include/sqlite3.h	5999;"	d
+SQLITE_TEXT	include/sqlite3.h	3667;"	d
+SQLITE_TEXT	include/sqlite3.h	3669;"	d
+SQLITE_TOOBIG	include/sqlite3.h	419;"	d
+SQLITE_TRANSACTION	include/sqlite3.h	2505;"	d
+SQLITE_TRANSIENT	include/sqlite3.h	4241;"	d
+SQLITE_UPDATE	include/sqlite3.h	2506;"	d
+SQLITE_UTF16	include/sqlite3.h	4028;"	d
+SQLITE_UTF16BE	include/sqlite3.h	4027;"	d
+SQLITE_UTF16LE	include/sqlite3.h	4026;"	d
+SQLITE_UTF16_ALIGNED	include/sqlite3.h	4030;"	d
+SQLITE_UTF8	include/sqlite3.h	4025;"	d
+SQLITE_VERSION	include/sqlite3.h	110;"	d
+SQLITE_VERSION	include/sqlite3.h	77;"	d
+SQLITE_VERSION_NUMBER	include/sqlite3.h	111;"	d
+SQLITE_VERSION_NUMBER	include/sqlite3.h	80;"	d
+SQLITE_VTAB_CONSTRAINT_SUPPORT	include/sqlite3.h	7140;"	d
+SQLITE_WARNING	include/sqlite3.h	429;"	d
+SRCMOC	Makefile	/^SRCMOC   = include\/moc_rkapp.cpp \\$/;"	m
+SYMLINK	Makefile	/^SYMLINK  = ln -sf$/;"	m
+SYS_CFG_FILE	common/rkcom.h	13;"	d
+TAR	Makefile	/^TAR      = tar -cf$/;"	m
+TARGET	Makefile	/^TARGET   = GUI$/;"	m
+TAV_OFFSET	common/rkshm.h	49;"	d
+TBL_MAX_ROW	src/rkfmqryrtd.cpp	21;"	d	file:
+TBL_ROW_NUM	src/rkfmqrymsg.cpp	31;"	d	file:
+TSAPI	include/tslib.h	36;"	d
+TSAPI	include/tslib.h	38;"	d
+TSEXPORT	include/tslib.h	22;"	d
+TSEXPORT	include/tslib.h	27;"	d
+TSEXPORT	include/tslib.h	30;"	d
+TSIMPORT	include/tslib.h	21;"	d
+TSIMPORT	include/tslib.h	25;"	d
+TSLOCAL	include/tslib.h	23;"	d
+TSLOCAL	include/tslib.h	28;"	d
+TSLOCAL	include/tslib.h	31;"	d
+TYPE_AI	common/rkshm.h	/^	TYPE_AI,$/;"	e	enum:__anon2
+TYPE_DI	common/rkshm.h	/^	TYPE_DI,$/;"	e	enum:__anon2
+TYPE_DO	common/rkshm.h	/^	TYPE_DO,$/;"	e	enum:__anon2
+TYPE_EI	common/rkshm.h	/^	TYPE_EI,$/;"	e	enum:__anon2
+TextZoneHeight	include/rkplotter.h	/^		enum { AxisXOffset= 10, AxisYOffset = 30, TextZoneHeight = 70};$/;"	e	enum:rkPlotter::__anon4
+TopLeft	include/rkfrm.h	/^			TopLeft = 0x00,$/;"	e	enum:rkFrame::Position
+TopRight	include/rkfrm.h	/^			TopRight = 0x01,$/;"	e	enum:rkFrame::Position
+UIC	Makefile	/^UIC      = $(QTDIR)\/bin\/uic$/;"	m
+UICDECLS	Makefile	/^UICDECLS = ui\/rkmsgview.h$/;"	m
+UICIMPLS	Makefile	/^UICIMPLS = ui\/rkmsgview.cpp$/;"	m
+UI_CMD_CORE_PROG_EXIT	common/rkcom.h	42;"	d
+UI_CMD_DISABLE_DTU	common/rkcom.h	40;"	d
+UI_CMD_ENABLE_DTU	common/rkcom.h	41;"	d
+UI_CMD_QRY_DATABASE	common/rkcom.h	43;"	d
+UI_CMD_RELOAD_USR_CFG	common/rkcom.h	39;"	d
+USB_DEV_CHECK	common/rkusb.h	9;"	d
+YACC	Makefile	/^YACC     = yacc$/;"	m
+YACCFLAGS	Makefile	/^YACCFLAGS= -d$/;"	m
+_BSD_SOURCE	mkspecs/arm/qplatformdefs.h	16;"	d
+_BSD_SOURCE	mkspecs/x86/qplatformdefs.h	16;"	d
+_GNU_SOURCE	mkspecs/arm/qplatformdefs.h	23;"	d
+_GNU_SOURCE	mkspecs/x86/qplatformdefs.h	23;"	d
+_RK_APPLICATION_H_	include/rkapp.h	2;"	d
+_RK_BASE_DIALOG_H_	include/rkdlg.h	2;"	d
+_RK_CALIB_H_	common/rkcalib.h	2;"	d
+_RK_CHECK_BOX_H_	include/rkckbox.h	2;"	d
+_RK_COLOR_H_	include/rkclr.h	2;"	d
+_RK_COMMON_H_	common/rkcom.h	2;"	d
+_RK_FIFO_H_	common/rkfifo.h	2;"	d
+_RK_FM_AI_CALIB_H_	include/rkfmaicalib.h	2;"	d
+_RK_FM_CALIB_H_	include/rkfmcalib.h	2;"	d
+_RK_FM_SCR_CALIBRATE_H_	include/rkfmscrcalib.h	2;"	d
+_RK_FORMULA_EDIT_DIALOG_H_	include/rkdlgfml.h	2;"	d
+_RK_FORMULA_SELECT_DIALOG_H_	include/rkdlgfmlsel.h	2;"	d
+_RK_FORM_ABOUT_H_	include/rkfminfo.h	2;"	d
+_RK_FORM_DATA_EXPORT_H_	include/rkfmexp.h	14;"	d
+_RK_FORM_DATA_QUERY_H_	include/rkfmqryrtd.h	2;"	d
+_RK_FORM_DATA_VIEW_H_	include/rkfmview.h	14;"	d
+_RK_FORM_MSG_QUERY_H_	include/rkfmqrymsg.h	14;"	d
+_RK_FORM_PARAM_SET_H_	include/rkfmset.h	2;"	d
+_RK_FRAMEWORK_H_	include/rkfrm.h	2;"	d
+_RK_HISTOGRAM_H_	include/rkhisto.h	2;"	d
+_RK_INIT_H_	include/rkinit.h	2;"	d
+_RK_IP_VALIDATOR_H_	include/rkfltip.h	2;"	d
+_RK_KEYBOARD_H_	include/rkdlgkb.h	2;"	d
+_RK_KEY_BUTTON_H_	include/rkbtnkey.h	2;"	d
+_RK_LINE_EDIT_H_	include/rklnedit.h	2;"	d
+_RK_MAINFORM_H_	include/rkfmpri.h	2;"	d
+_RK_MESSAGER_THREAD_H_	include/rktrdmsg.h	2;"	d
+_RK_MONITOR_THREAD_H_	include/rktrdmnt.h	2;"	d
+_RK_PASSWD_VERIFY_H_	include/rkfmpw.h	2;"	d
+_RK_PLOTTER_H_	include/rkplotter.h	2;"	d
+_RK_SELECT_DIALOG_H_	include/rkdlgsel.h	2;"	d
+_RK_SET_INTERFACE_H_	include/rkifaceoper.h	2;"	d
+_RK_SET_PARAM_ANALOG_H_	include/rksetanalog.h	14;"	d
+_RK_SET_PARAM_NET_H_	include/rksetnet.h	2;"	d
+_RK_SET_PARAM_SWITCH_H_	include/rksetdio.h	2;"	d
+_RK_SET_PARAM_SYS_H_	include/rksetsys.h	14;"	d
+_RK_SET_PARAM_UART_H_	include/rksetcom.h	2;"	d
+_RK_SET_VALUE_SWITCH_H_	include/rksetdo.h	2;"	d
+_RK_SET_VALUE_UART_H_	include/rksetvar.h	2;"	d
+_RK_SHARE_MEM_H_	common/rkshm.h	14;"	d
+_RK_SWITCH_BUTTON_H_	include/rkbtnsw.h	2;"	d
+_RK_TABLE_VIEW_H_	include/rktbl.h	2;"	d
+_RK_TAB_WIDGET_H_	include/rktabwgt.h	2;"	d
+_RK_TYPE_H_	include/rktype.h	2;"	d
+_RK_USB_DISK_H_	common/rkusb.h	2;"	d
+_RK_XML_OPER_H_	include/rkxmloper.h	2;"	d
+_RK_XML_PROCESS_H_	include/rkxmlproc.h	2;"	d
+_SQLITE3RTREE_H_	include/sqlite3.h	7200;"	d
+_SQLITE3_H_	include/sqlite3.h	34;"	d
+_TSLIB_H_	include/tslib.h	2;"	d
+a	include/rkfmscrcalib.h	/^	int a[7];$/;"	m	struct:__anon5
+aConstraint	include/sqlite3.h	/^  } *aConstraint;            \/* Table of WHERE clause constraints *\/$/;"	m	struct:sqlite3_index_info	typeref:struct:sqlite3_index_info::sqlite3_index_constraint
+aConstraintUsage	include/sqlite3.h	/^  } *aConstraintUsage;$/;"	m	struct:sqlite3_index_info	typeref:struct:sqlite3_index_info::sqlite3_index_constraint_usage
+aOrderBy	include/sqlite3.h	/^  } *aOrderBy;               \/* The ORDER BY clause *\/$/;"	m	struct:sqlite3_index_info	typeref:struct:sqlite3_index_info::sqlite3_index_orderby
+aParam	include/sqlite3.h	/^  double *aParam;                 \/* Parameters passed to SQL geom function *\/$/;"	m	struct:sqlite3_rtree_geometry
+aboutForm	include/rkfmpri.h	/^		rkFmInfo *aboutForm;$/;"	m	class:rkFmPri
+addItem	src/rkdlgsel.cpp	/^void rkDlgSel::addItem(const QString &labeltxt, const QString &code, int index)$/;"	f	class:rkDlgSel
+addItem	src/rkhisto.cpp	/^void rkHisto::addItem(const QString &name, double value, const QColor &color)$/;"	f	class:rkHisto
+addNewFormula	src/rkdlgfmlsel.cpp	/^void rkDlgFmlSel::addNewFormula(const QString &formula, const QString &info)$/;"	f	class:rkDlgFmlSel
+adjust	src/rkplotter.cpp	/^void PlotSettings::adjust()$/;"	f	class:PlotSettings
+adjustAxis	src/rkplotter.cpp	/^void PlotSettings::adjustAxis(double &min, double &max, int &numTicks)$/;"	f	class:PlotSettings
+ai	common/rkshm.h	/^	rtdInfo_t	ai[AI_NUM];$/;"	m	struct:shmMap
+ai	include/rktype.h	/^	struct rtdInfo ai[AI_NUM];$/;"	m	struct:context	typeref:struct:context::rtdInfo
+aicalib	include/rkfmcalib.h	/^		rkFmAiCalib *aicalib;$/;"	m	class:rkFmCalib
+alignment	include/rktbl.h	/^		virtual int alignment() const {$/;"	f	class:rkTblItem
+alm	common/rkshm.h	/^	ALARM_T alm;$/;"	m	struct:rtdInfo
+arg	src/rkifaceoper.cpp	/^static char arg[4][128];$/;"	v	file:
+argvIndex	include/sqlite3.h	/^    int argvIndex;           \/* if >0, constraint is part of argv to xFilter *\/$/;"	m	struct:sqlite3_index_info::sqlite3_index_constraint_usage
+ask	common/rkshm.h	/^	uint8_t ask; \/* Client Request Flag *\/$/;"	m	struct:queryReq
+blankWidth	include/rkhisto.h	/^		int blankWidth;$/;"	m	class:rkHisto
+bottomChildLayout	include/rkfrm.h	/^		QHBoxLayout *bottomChildLayout;$/;"	m	class:rkFrame
+bottomFrame	include/rkfrm.h	/^		QFrame *bottomFrame;$/;"	m	class:rkFrame
+bottomLayout	include/rkfrm.h	/^		QVBoxLayout *bottomLayout;$/;"	m	class:rkFrame
+bottomLine	include/rkfrm.h	/^		QFrame *bottomLine;$/;"	m	class:rkFrame
+btmfrm	include/rkfmexp.h	/^		QFrame *btmfrm;$/;"	m	class:rkFmExp
+btn	include/rkdlgsel.h	/^		QPushButton *btn;$/;"	m	class:rkDlgSel
+btn	include/rkfmaicalib.h	/^		QPushButton *btn;$/;"	m	class:rkFmAiCalib
+btn	include/rkfmcalib.h	/^		QPushButton *btn;$/;"	m	class:rkFmCalib
+btn	include/rkfmexp.h	/^		QPushButton *btn;$/;"	m	class:rkFmExp
+btn	include/rkfmpri.h	/^		QPushButton *btn[6];$/;"	m	class:rkFmPri
+btn	include/rkfmqrymsg.h	/^		QPushButton *btn;$/;"	m	class:rkFmQryMsg
+btn	include/rkfmqryrtd.h	/^		QPushButton *btn;$/;"	m	class:rkFmQryRtd
+btn	include/rksetanalog.h	/^		QPushButton *btn;$/;"	m	class:rkSetAnalog
+btn	include/rksetdio.h	/^		QPushButton *btn;$/;"	m	class:rkSetDio
+btn	include/rksetsys.h	/^		QPushButton *btn;$/;"	m	class:rkSetSys
+btn	include/rksetvar.h	/^		QPushButton *btn;$/;"	m	class:rkSetVar
+btnChangePic	src/rkfmview.cpp	/^void rkFmView::btnChangePic(int index)$/;"	f	class:rkFmView
+btngroup	include/rkdlgkb.h	/^		QButtonGroup *btngroup;$/;"	m	class:rkDlgKb
+buf	common/rkshm.h	/^	char buf[256];$/;"	m	struct:rkRec
+buffer	common/rkfifo.h	/^	char *buffer;$/;"	m	struct:fifo
+button0	include/rkfmpw.h	/^		QPushButton *button0; \/* Ok *\/$/;"	m	class:rkFmPw
+button1	include/rkfmpw.h	/^		QPushButton *button1; \/* Cancel *\/$/;"	m	class:rkFmPw
+buttonFrame	include/rkdlg.h	/^		QFrame *buttonFrame;$/;"	m	class:rkDlg
+buttonFrame	include/rkdlgfml.h	/^		QFrame *buttonFrame;$/;"	m	class:rkDlgFml
+buttonFrame	include/rkdlgfmlsel.h	/^		QFrame *buttonFrame;$/;"	m	class:rkDlgFmlSel
+buttonOn	include/rkbtnsw.h	/^		bool        buttonOn;$/;"	m	class:rkBtnSw
+cal	include/rkfmscrcalib.h	/^		calibration cal;$/;"	m	class:rkFmScrCalib
+calibChl	include/rkfmaicalib.h	/^		int calibChl;$/;"	m	class:rkFmAiCalib
+calibrateForm	include/rkfmset.h	/^		rkFmCalib *calibrateForm;$/;"	m	class:rkFmSet
+calibrateInit	src/rkfmscrcalib.cpp	/^bool rkFmScrCalib::calibrateInit()$/;"	f	class:rkFmScrCalib
+calibratePerform	src/rkfmscrcalib.cpp	/^bool rkFmScrCalib::calibratePerform()$/;"	f	class:rkFmScrCalib
+calibration	include/rkfmscrcalib.h	/^} calibration;$/;"	t	typeref:struct:__anon5
+changeChannel	src/rksetdio.cpp	/^void rkSetDio::changeChannel(int channel)$/;"	f	class:rkSetDio
+changeChl	src/rksetanalog.cpp	/^void rkSetAnalog::changeChl(int chl)$/;"	f	class:rkSetAnalog
+changeChl	src/rksetcom.cpp	/^void rkSetCom::changeChl(int channel)$/;"	f	class:rkSetCom
+changeChl	src/rksetvar.cpp	/^void rkSetVar::changeChl(int channel)$/;"	f	class:rkSetVar
+checkBox	include/rkfmaicalib.h	/^		rkCkBox *checkBox;$/;"	m	class:rkFmAiCalib
+checkBox	include/rksetnet.h	/^		rkCkBox *checkBox;$/;"	m	class:rkSetNet
+checkBox	include/rksetsys.h	/^		rkCkBox *checkBox[6];$/;"	m	class:rkSetSys
+checkState	include/rkckbox.h	/^		bool checkState; \/* True -- Check, False -- Uncheck *\/$/;"	m	class:rkCkBox
+childProcessExited	src/rkfmset.cpp	/^void rkFmSet::childProcessExited()$/;"	f	class:rkFmSet
+ckMap	include/rkfmqryrtd.h	/^typedef QMap<rkCkBox *, QString> ckMap;$/;"	t
+ckbox	include/rkdlgsel.h	/^		rkCkBox *ckbox;$/;"	m	class:rkDlgSel
+ckbox	include/rkfmaicalib.h	/^		rkCkBox *ckbox[AI_NUM];$/;"	m	class:rkFmAiCalib
+ckbox	include/rkfmqryrtd.h	/^		rkCkBox *ckbox;$/;"	m	class:rkFmQryRtd
+ckbox	include/rksetanalog.h	/^		rkCkBox *ckbox[3];$/;"	m	class:rkSetAnalog
+ckbox	include/rksetdio.h	/^		rkCkBox *ckbox;$/;"	m	class:rkSetDio
+ckbox	include/rksetvar.h	/^		rkCkBox *ckbox[3];$/;"	m	class:rkSetVar
+clearCurve	src/rkplotter.cpp	/^void rkPlotter::clearCurve(int id)$/;"	f	class:rkPlotter
+clearSelect	src/rkdlgsel.cpp	/^void rkDlgSel::clearSelect()$/;"	f	class:rkDlgSel
+cliarg	include/rktype.h	/^	char *cliarg[5];$/;"	m	struct:context
+clickProc	src/rkfmqrymsg.cpp	/^void rkFmQryMsg::clickProc()$/;"	f	class:rkFmQryMsg
+clickProc	src/rkfmqryrtd.cpp	/^void rkFmQryRtd::clickProc()$/;"	f	class:rkFmQryRtd
+clickProc	src/rkfmset.cpp	/^void rkFmSet::clickProc()$/;"	f	class:rkFmSet
+closeEvent	src/rkfmpw.cpp	/^void rkFmPw::closeEvent(QCloseEvent *e)$/;"	f	class:rkFmPw
+cmap	include/rkfmqryrtd.h	/^		QMap<QString, QString>cmap;$/;"	m	class:rkFmQryRtd
+cmd	common/rkshm.h	/^	uint8_t cmd[64];$/;"	m	struct:queryCond
+cnt1	include/rkfmaicalib.h	/^		int cnt1;$/;"	m	class:rkFmAiCalib
+cnt2	include/rkfmaicalib.h	/^		int cnt2;$/;"	m	class:rkFmAiCalib
+code	common/rkshm.h	/^	char code[8];$/;"	m	struct:dioInfo
+code	common/rkshm.h	/^	char code[8];$/;"	m	struct:rtdInfo
+codelabel	include/rksetdio.h	/^		QLabel *codelabel[8];$/;"	m	class:rkSetDio
+codelist	include/rksetsys.h	/^		QStringList codelist;$/;"	m	class:rkSetSys
+codemap	include/rkdlgsel.h	/^		QMap<int, QString> codemap;$/;"	m	class:rkDlgSel
+col	include/rkfmqryrtd.h	/^		int col;$/;"	m	class:rkFmQryRtd
+col	include/rksetanalog.h	/^		int col;$/;"	m	class:rkSetAnalog
+col	include/rksetvar.h	/^		int col;$/;"	m	class:rkSetVar
+col	include/rktype.h	/^	int		col;$/;"	m	struct:context
+color	include/rkhisto.h	/^		QColor color;$/;"	m	class:rkHistoItem
+combKeyCounter	include/rkfmpw.h	/^		int combKeyCounter;$/;"	m	class:rkFmPw
+combkeycnt	include/rkfmpri.h	/^		int combkeycnt;$/;"	m	class:rkFmPri
+combox	include/rkfmexp.h	/^		QComboBox *combox[2];$/;"	m	class:rkFmExp
+combox	include/rkfmqrymsg.h	/^		QComboBox *combox;$/;"	m	class:rkFmQryMsg
+combox	include/rksetanalog.h	/^		QComboBox *combox[2];$/;"	m	class:rkSetAnalog
+combox	include/rksetcom.h	/^		QComboBox *combox[6];$/;"	m	class:rkSetCom
+combox	include/rksetdio.h	/^		QComboBox *combox;$/;"	m	class:rkSetDio
+combox	include/rksetnet.h	/^		QComboBox *combox;$/;"	m	class:rkSetNet
+combox	include/rksetsys.h	/^		QComboBox *combox[3];$/;"	m	class:rkSetSys
+combox	include/rksetvar.h	/^		QComboBox *combox[2];$/;"	m	class:rkSetVar
+cond	common/rkshm.h	/^	struct queryCond cond;$/;"	m	struct:queryReq	typeref:struct:queryReq::queryCond
+context	include/rktype.h	/^typedef struct context {$/;"	s
+context	src/rkxmlproc.cpp	/^rkXmlProc context;$/;"	v
+context_t	include/rktype.h	/^} context_t;$/;"	t	typeref:struct:context
+convertKeyMap	src/rkdlgkb.cpp	/^void rkDlgKb::convertKeyMap()$/;"	f	class:rkDlgKb
+createButtonFrame	src/rkdlg.cpp	/^QFrame *rkDlg::createButtonFrame(QWidget *parent)$/;"	f	class:rkDlg
+createLeftFrame	src/rkfrm.cpp	/^QFrame *rkFrame::createLeftFrame(QWidget *parent)$/;"	f	class:rkFrame
+createMainframe	src/rkfrm.cpp	/^QFrame *rkFrame::createMainframe(QWidget *parent)$/;"	f	class:rkFrame
+createMiddleFrame	src/rkdlg.cpp	/^QFrame *rkDlg::createMiddleFrame(QWidget *parent)$/;"	f	class:rkDlg
+createRightFrame	src/rkfrm.cpp	/^QFrame *rkFrame::createRightFrame(QWidget *parent)$/;"	f	class:rkFrame
+ctx	src/main.cpp	/^struct context ctx;$/;"	v	typeref:struct:context
+curChl	include/rksetanalog.h	/^		int curChl;$/;"	m	class:rkSetAnalog
+curZoom	include/rkplotter.h	/^		int curZoom;$/;"	m	class:rkPlotter
+curpos	include/rkfmpri.h	/^		int curpos;$/;"	m	class:rkFmPri
+currentRow	include/rkdlgfmlsel.h	/^		int currentRow;$/;"	m	class:rkDlgFmlSel
+curveMap	include/rkplotter.h	/^		QMap<int, QValueVector<QPoint> > curveMap;$/;"	m	class:rkPlotter
+dataExportForm	include/rkfmpri.h	/^		rkFmExp *dataExportForm;$/;"	m	class:rkFmPri
+dataQueryForm	include/rkfmpri.h	/^		rkFmQryRtd *dataQueryForm;$/;"	m	class:rkFmPri
+dataReq	common/rkshm.h	/^	queryReq_t	dataReq;$/;"	m	struct:shmMap
+dataViewForm	include/rkfmpri.h	/^		rkFmView *dataViewForm;$/;"	m	class:rkFmPri
+dateLabel	include/rkfrm.h	/^		QLabel *dateLabel;$/;"	m	class:rkFrame
+db	include/rkfmqrymsg.h	/^		sqlite3 *db;$/;"	m	class:rkFmQryMsg
+db	include/rkfmqryrtd.h	/^		sqlite3 *db;$/;"	m	class:rkFmQryRtd
+db	include/rktype.h	/^	sqlite3 *db;$/;"	m	struct:context
+declare	include/rkxmlproc.h	/^	rkXmlNode *declare;$/;"	m	struct:rk_xml_process
+desc	include/sqlite3.h	/^     unsigned char desc;       \/* True for DESC.  False for ASC. *\/$/;"	m	struct:sqlite3_index_info::sqlite3_index_orderby
+destory	ui/rkmsgview.ui.h	/^void rkMsgView::destory()$/;"	f	class:rkMsgView
+devnode	common/rkusb.h	/^	char devnode[128];$/;"	m	struct:usbdisk
+dioInfo	common/rkshm.h	/^typedef struct dioInfo {$/;"	s
+dioInfo_t	common/rkshm.h	/^} dioInfo_t;$/;"	t	typeref:struct:dioInfo
+dip	common/rkshm.h	/^	dioInfo_t	dip[DI_NUM];$/;"	m	struct:shmMap
+dip	include/rktype.h	/^	struct dioInfo dip[DI_NUM];$/;"	m	struct:context	typeref:struct:context::dioInfo
+dop	common/rkshm.h	/^	dioInfo_t	dop[DO_NUM];$/;"	m	struct:shmMap
+dop	include/rktype.h	/^	struct dioInfo dop[DO_NUM];$/;"	m	struct:context	typeref:struct:context::dioInfo
+double	include/sqlite3.h	264;"	d
+double	include/sqlite3.h	7178;"	d
+drawCrosshair	src/rkfmscrcalib.cpp	/^void rkFmScrCalib::drawCrosshair(int index)$/;"	f	class:rkFmScrCalib
+drawCurves	src/rkplotter.cpp	/^void rkPlotter::drawCurves(QPainter *painter)$/;"	f	class:rkPlotter
+drawGrid	src/rkplotter.cpp	/^void rkPlotter::drawGrid(QPainter *painter)$/;"	f	class:rkPlotter
+dspwgt	include/rkfmqryrtd.h	/^		QWidget *dspwgt;$/;"	m	class:rkFmQryRtd
+editDialog	include/rkdlgfmlsel.h	/^		rkDlgFml *editDialog;$/;"	m	class:rkDlgFmlSel
+editFrame	include/rkdlgfml.h	/^		QFrame *editFrame;$/;"	m	class:rkDlgFml
+ei	common/rkshm.h	/^	rtdInfo_t	ei[EI_NUM];$/;"	m	struct:shmMap
+ei	include/rktype.h	/^	struct rtdInfo ei[EI_NUM];$/;"	m	struct:context	typeref:struct:context::rtdInfo
+enDialog	include/rkfmset.h	/^		bool enDialog;$/;"	m	class:rkFmSet
+end	common/rkshm.h	/^	time_t end;$/;"	m	struct:queryCond
+err	include/rktype.h	/^	char	*err;$/;"	m	struct:context
+estimatedCost	include/sqlite3.h	/^  double estimatedCost;      \/* Estimated cost of using this index *\/$/;"	m	struct:sqlite3_index_info
+etm	include/rkfmexp.h	/^		QDateTimeEdit *etm;$/;"	m	class:rkFmExp
+eventFilter	src/rkfmset.cpp	/^bool rkFmSet::eventFilter(QObject *obj, QEvent *event)$/;"	f	class:rkFmSet
+export_callback	src/rkfmexp.cpp	/^int export_callback(void *arg, int colnum, char **col, char **colname)$/;"	f
+fifo	common/rkfifo.h	/^typedef struct fifo {$/;"	s
+fifo	common/rkshm.c	/^static struct fifo fifo;$/;"	v	typeref:struct:fifo	file:
+fifo_t	common/rkfifo.h	/^} fifo_t;$/;"	t	typeref:struct:fifo
+fifohdr	common/rkfifo.h	/^typedef struct fifohdr {$/;"	s
+fifohdr_t	common/rkfifo.h	/^} fifohdr_t;$/;"	t	typeref:struct:fifohdr
+fileName	include/rkxmloper.h	/^		QString fileName; \/* XML filename *\/$/;"	m	class:rkXmlOper
+fileName	include/rkxmlproc.h	/^	const char *fileName;$/;"	m	struct:rk_xml_process
+flag	common/rkshm.h	/^	volatile uint8_t		flag;$/;"	m	struct:shmMap
+fmlDlg	include/rksetanalog.h	/^		rkDlgFmlSel *fmlDlg;$/;"	m	class:rkSetAnalog
+fmlDlg	include/rksetvar.h	/^		rkDlgFmlSel *fmlDlg;$/;"	m	class:rkSetVar
+focusId	include/rkfmpri.h	/^		int focusId;$/;"	m	class:rkFmPri
+focusNextPrevChild	src/rkfmpri.cpp	/^bool rkFmPri::focusNextPrevChild(bool next)$/;"	f	class:rkFmPri
+focusedLineEdit	include/rkdlgfml.h	/^		rkLnEdit *focusedLineEdit;$/;"	m	class:rkDlgFml
+focusedLineEdit	include/rksetanalog.h	/^		rkLnEdit *focusedLineEdit;$/;"	m	class:rkSetAnalog
+focusedLineEdit	include/rksetcom.h	/^		rkLnEdit *focusedLineEdit;$/;"	m	class:rkSetCom
+focusedLineEdit	include/rksetdio.h	/^		rkLnEdit *focusedLineEdit;$/;"	m	class:rkSetDio
+focusedLineEdit	include/rksetdo.h	/^		rkLnEdit *focusedLineEdit;$/;"	m	class:rkSetDo
+focusedLineEdit	include/rksetnet.h	/^		rkLnEdit *focusedLineEdit;$/;"	m	class:rkSetNet
+focusedLineEdit	include/rksetsys.h	/^		rkLnEdit *focusedLineEdit;$/;"	m	class:rkSetSys
+focusedLnEdit	include/rksetvar.h	/^		rkLnEdit *focusedLnEdit;$/;"	m	class:rkSetVar
+formulaFrame	include/rkdlgfmlsel.h	/^		QFrame *formulaFrame;$/;"	m	class:rkDlgFmlSel
+forwardUICmd	src/rkfmset.cpp	/^void rkFmSet::forwardUICmd(int cmd)$/;"	f	class:rkFmSet
+forwardUICommand	src/rkfmcalib.cpp	/^void rkFmCalib::forwardUICommand(int cmd)$/;"	f	class:rkFmCalib
+frameHeight	include/rkdlg.h	/^		int frameHeight;$/;"	m	class:rkDlg
+frameHeight	include/rkfrm.h	/^		int frameHeight;$/;"	m	class:rkFrame
+frameLayout	include/rkdlg.h	/^		QVBoxLayout *frameLayout;$/;"	m	class:rkDlg
+frameLayout	include/rkfmpw.h	/^		QGridLayout *frameLayout;$/;"	m	class:rkFmPw
+frameLayout	include/rksetdo.h	/^		QGridLayout *frameLayout;$/;"	m	class:rkSetDo
+frameLayout	include/rksetnet.h	/^		QGridLayout *frameLayout;$/;"	m	class:rkSetNet
+frameWidth	include/rkdlg.h	/^		int frameWidth;$/;"	m	class:rkDlg
+frameWidth	include/rkfrm.h	/^		int frameWidth;$/;"	m	class:rkFrame
+free	src/rkxmloper.cpp	/^void rkXmlOper::free()$/;"	f	class:rkXmlOper
+frmHeight	include/rkdlgsel.h	/^		int frmHeight;$/;"	m	class:rkDlgSel
+frmWidth	include/rkdlgsel.h	/^		int frmWidth;$/;"	m	class:rkDlgSel
+frmlayout	include/rkfminfo.h	/^		QGridLayout *frmlayout;$/;"	m	class:rkFmInfo
+getGroupParamVal	src/rkxmloper.cpp	/^QString rkXmlOper::getGroupParamVal(const char *groupId, const char *param)$/;"	f	class:rkXmlOper
+getParamVal	src/rkxmloper.cpp	/^QString rkXmlOper::getParamVal(const char *name)$/;"	f	class:rkXmlOper
+getPosition	src/rkfmscrcalib.cpp	/^bool rkFmScrCalib::getPosition(int *x, int *y)$/;"	f	class:rkFmScrCalib
+getSample	src/rkfmscrcalib.cpp	/^bool rkFmScrCalib::getSample(int index)$/;"	f	class:rkFmScrCalib
+getSelItems	src/rkdlgsel.cpp	/^QString rkDlgSel::getSelItems()$/;"	f	class:rkDlgSel
+gfont	include/rkfmqryrtd.h	/^		QFont gfont;$/;"	m	class:rkFmQryRtd
+glayout	include/rkdlgsel.h	/^		QGridLayout *glayout;$/;"	m	class:rkDlgSel
+glayout	include/rkfmaicalib.h	/^		QGridLayout *glayout;$/;"	m	class:rkFmAiCalib
+glayout	include/rkfmcalib.h	/^		QGridLayout *glayout;$/;"	m	class:rkFmCalib
+glayout	include/rkfmexp.h	/^		QGridLayout *glayout;$/;"	m	class:rkFmExp
+glayout	include/rkfmqrymsg.h	/^		QGridLayout *glayout;$/;"	m	class:rkFmQryMsg
+glayout	include/rkfmqryrtd.h	/^		QGridLayout *glayout;$/;"	m	class:rkFmQryRtd
+glayout	include/rksetanalog.h	/^		QGridLayout *glayout;$/;"	m	class:rkSetAnalog
+glayout	include/rksetcom.h	/^		QGridLayout *glayout;$/;"	m	class:rkSetCom
+glayout	include/rksetdio.h	/^		QGridLayout *glayout;$/;"	m	class:rkSetDio
+glayout	include/rksetsys.h	/^		QGridLayout *glayout;$/;"	m	class:rkSetSys
+glayout	include/rksetvar.h	/^		QGridLayout *glayout;$/;"	m	class:rkSetVar
+hdr	common/rkfifo.h	/^	struct fifohdr *hdr;$/;"	m	struct:fifo	typeref:struct:fifo::fifohdr
+headFrame	include/rkdlg.h	/^		QFrame *headFrame;$/;"	m	class:rkDlg
+heartbeat	common/rkshm.h	/^	volatile uint8_t		heartbeat;$/;"	m	struct:shmMap
+helpString	src/rkinit.cpp	/^static const char *helpString = $/;"	v	file:
+hideEvent	src/rkfmaicalib.cpp	/^void rkFmAiCalib :: hideEvent(QHideEvent *)$/;"	f	class:rkFmAiCalib
+hideEvent	src/rkfmpw.cpp	/^void rkFmPw::hideEvent(QHideEvent *e)$/;"	f	class:rkFmPw
+hideIcon	src/rkfrm.cpp	/^void rkFrame::hideIcon(IconType type)$/;"	f	class:rkFrame
+hideKeyboard	src/rkfrm.cpp	/^void rkFrame::hideKeyboard()$/;"	f	class:rkFrame
+hlayout	include/rkdlgsel.h	/^		QHBoxLayout *hlayout;$/;"	m	class:rkDlgSel
+hlayout	include/rkfmaicalib.h	/^		QHBoxLayout *hlayout;$/;"	m	class:rkFmAiCalib
+hlayout	include/rkfmcalib.h	/^		QHBoxLayout *hlayout;$/;"	m	class:rkFmCalib
+hlayout	include/rksetanalog.h	/^		QHBoxLayout *hlayout;$/;"	m	class:rkSetAnalog
+hlayout	include/rksetdio.h	/^		QHBoxLayout *hlayout;$/;"	m	class:rkSetDio
+hlayout	include/rksetsys.h	/^		QHBoxLayout *hlayout;$/;"	m	class:rkSetSys
+hlayout	include/rksetvar.h	/^		QHBoxLayout *hlayout;$/;"	m	class:rkSetVar
+hoffset	common/rkcalib.h	/^	uint16_t hoffset;$/;"	m	struct:SCalib
+iColumn	include/sqlite3.h	/^     int iColumn;              \/* Column number *\/$/;"	m	struct:sqlite3_index_info::sqlite3_index_orderby
+iColumn	include/sqlite3.h	/^     int iColumn;              \/* Column on left-hand side of constraint *\/$/;"	m	struct:sqlite3_index_info::sqlite3_index_constraint
+iTermOffset	include/sqlite3.h	/^     int iTermOffset;          \/* Used internally - xBestIndex should ignore *\/$/;"	m	struct:sqlite3_index_info::sqlite3_index_constraint
+iVersion	include/sqlite3.h	/^  int iVersion;            \/* Structure version number (currently 3) *\/$/;"	m	struct:sqlite3_vfs
+iVersion	include/sqlite3.h	/^  int iVersion;$/;"	m	struct:sqlite3_io_methods
+iVersion	include/sqlite3.h	/^  int iVersion;$/;"	m	struct:sqlite3_module
+iVersion	include/sqlite3.h	/^  int iVersion;$/;"	m	struct:sqlite3_pcache_methods2
+iconBtn	include/rkfmset.h	/^		QPushButton *iconBtn[10];$/;"	m	class:rkFmSet
+iconStat	include/rkfrm.h	/^		IconType iconStat[4];$/;"	m	class:rkFrame
+id	common/rkshm.h	/^	uint8_t id;$/;"	m	struct:dioInfo
+id	common/rkshm.h	/^	uint8_t id;$/;"	m	struct:rtdInfo
+id	common/rkshm.h	/^	unsigned int id;$/;"	m	struct:queryReq
+id	include/rkfmaicalib.h	/^		int id;$/;"	m	class:rkFmAiCalib
+idxNum	include/sqlite3.h	/^  int idxNum;                \/* Number used to identify the index *\/$/;"	m	struct:sqlite3_index_info
+idxStr	include/sqlite3.h	/^  char *idxStr;              \/* String, possibly obtained from sqlite3_malloc *\/$/;"	m	struct:sqlite3_index_info
+ifaceArg	include/rksetnet.h	/^		QStringList ifaceArg;$/;"	m	class:rkSetNet
+ifont	include/rkdlgsel.h	/^		QFont ifont;$/;"	m	class:rkDlgSel
+init	ui/rkmsgview.ui.h	/^void rkMsgView::init()$/;"	f	class:rkMsgView
+initialize	src/rkbtnsw.cpp	/^void rkBtnSw::initialize(const QString& strImageBk, const QString& strImageFore)$/;"	f	class:rkBtnSw
+interval	include/rkapp.h	/^		int interval;$/;"	m	class:rkApp
+inuse	common/rkcalib.h	/^	uint8_t inuse;$/;"	m	struct:SCalib
+inuse	common/rkshm.h	/^	uint8_t inuse;$/;"	m	struct:dioInfo
+inuse	common/rkshm.h	/^	uint8_t inuse;$/;"	m	struct:rtdInfo
+isBacklightOn	include/rkapp.h	/^		bool isBacklightOn;$/;"	m	class:rkApp
+isChecked	src/rkckbox.cpp	/^bool rkCkBox::isChecked()$/;"	f	class:rkCkBox
+isOn	src/rkbtnsw.cpp	/^bool rkBtnSw::isOn()$/;"	f	class:rkBtnSw
+isTableShown	include/rkfmview.h	/^		bool isTableShown;$/;"	m	class:rkFmView
+isUpper	include/rkdlgkb.h	/^		bool isUpper;$/;"	m	class:rkDlgKb
+itemCount	include/rksetdio.h	/^		int itemCount;$/;"	m	class:rkSetDio
+itemCount	include/rksetdo.h	/^		int itemCount;$/;"	m	class:rkSetDo
+items	include/rkhisto.h	/^		QValueVector<rkHistoItem> items;$/;"	m	class:rkHisto
+keyMapLower	include/rkdlgkb.h	/^		QStringList keyMapLower;$/;"	m	class:rkDlgKb
+keyMapUpper	include/rkdlgkb.h	/^		QStringList keyMapUpper;$/;"	m	class:rkDlgKb
+keyPressEvent	src/rkfmexp.cpp	/^void rkFmExp::keyPressEvent(QKeyEvent *e) $/;"	f	class:rkFmExp
+keyPressEvent	src/rkfmpri.cpp	/^void rkFmPri::keyPressEvent(QKeyEvent *e)$/;"	f	class:rkFmPri
+keyPressEvent	src/rkfmpw.cpp	/^void rkFmPw::keyPressEvent(QKeyEvent *e)$/;"	f	class:rkFmPw
+keyPressEvent	src/rkfmqrymsg.cpp	/^void rkFmQryMsg::keyPressEvent(QKeyEvent *e)$/;"	f	class:rkFmQryMsg
+keyPressEvent	src/rkfmqryrtd.cpp	/^void rkFmQryRtd::keyPressEvent(QKeyEvent *e) $/;"	f	class:rkFmQryRtd
+keyReleaseEvent	src/rkfmexp.cpp	/^void rkFmExp::keyReleaseEvent(QKeyEvent *e) $/;"	f	class:rkFmExp
+keyReleaseEvent	src/rkfmpri.cpp	/^void rkFmPri::keyReleaseEvent(QKeyEvent *e)$/;"	f	class:rkFmPri
+keyReleaseEvent	src/rkfmpw.cpp	/^void rkFmPw::keyReleaseEvent(QKeyEvent *e)$/;"	f	class:rkFmPw
+keyReleaseEvent	src/rkfmqrymsg.cpp	/^void rkFmQryMsg::keyReleaseEvent(QKeyEvent *e)$/;"	f	class:rkFmQryMsg
+keyReleaseEvent	src/rkfmqryrtd.cpp	/^void rkFmQryRtd::keyReleaseEvent(QKeyEvent *e) $/;"	f	class:rkFmQryRtd
+keyRepeat	include/rkfmpri.h	/^		bool keyRepeat;$/;"	m	class:rkFmPri
+keyTimer	include/rkfmpri.h	/^		int keyTimer;$/;"	m	class:rkFmPri
+keyValueLower	include/rkdlgkb.h	/^		QString keyValueLower;$/;"	m	class:rkDlgKb
+keyValueUpper	include/rkdlgkb.h	/^		QString keyValueUpper;$/;"	m	class:rkDlgKb
+keyboard	include/rkfrm.h	/^		rkDlgKb *keyboard;$/;"	m	class:rkFrame
+keyboardLayout	include/rkdlgkb.h	/^		QVBoxLayout *keyboardLayout;$/;"	m	class:rkDlgKb
+label	include/rkdlgsel.h	/^		QLabel *label;$/;"	m	class:rkDlgSel
+label	include/rkfmaicalib.h	/^		QLabel *label;$/;"	m	class:rkFmAiCalib
+label	include/rkfmexp.h	/^		QLabel *label;$/;"	m	class:rkFmExp
+label	include/rkfminfo.h	/^		QLabel *label;$/;"	m	class:rkFmInfo
+label	include/rkfmqrymsg.h	/^		QLabel *label;$/;"	m	class:rkFmQryMsg
+label	include/rkfmqryrtd.h	/^		QLabel *label;$/;"	m	class:rkFmQryRtd
+label	include/rksetanalog.h	/^		QLabel *label;$/;"	m	class:rkSetAnalog
+label	include/rksetdio.h	/^		QLabel *label;$/;"	m	class:rkSetDio
+label	include/rksetsys.h	/^		QLabel *label;$/;"	m	class:rkSetSys
+label	include/rksetvar.h	/^		QLabel *label;$/;"	m	class:rkSetVar
+labelText	include/rksetcom.h	/^		QStringList labelText;$/;"	m	class:rkSetCom
+labelText	include/rksetdo.h	/^		QStringList labelText;$/;"	m	class:rkSetDo
+labelText	include/rksetnet.h	/^		QStringList labelText;$/;"	m	class:rkSetNet
+labelText	include/rksetvar.h	/^		QStringList labelText;$/;"	m	class:rkSetVar
+labeltxt	include/rksetsys.h	/^		QStringList labeltxt;$/;"	m	class:rkSetSys
+lastKey	include/rkfmpw.h	/^		int lastKey;$/;"	m	class:rkFmPw
+lastkey	include/rkfmpri.h	/^		int lastkey;$/;"	m	class:rkFmPri
+layout	include/rkfmexp.h	/^		QHBoxLayout *layout;$/;"	m	class:rkFmExp
+layout	include/rkfmqryrtd.h	/^		QHBoxLayout *layout;$/;"	m	class:rkFmQryRtd
+lbtn	include/rkfmview.h	/^		QPushButton *lbtn[2];$/;"	m	class:rkFmView
+lbtnPicPrefix	include/rkfmview.h	/^		QStringList lbtnPicPrefix;$/;"	m	class:rkFmView
+leftFrame	include/rkfrm.h	/^		QFrame *leftFrame;$/;"	m	class:rkFrame
+leftfrm	include/rkfmqrymsg.h	/^		QFrame *leftfrm;$/;"	m	class:rkFmQryMsg
+leftfrm	include/rkfmview.h	/^		QFrame *leftfrm;$/;"	m	class:rkFmView
+len	common/rkshm.h	/^	unsigned int len;$/;"	m	struct:rkRec
+lineEdit	include/rkfmpw.h	/^		rkLnEdit *lineEdit;$/;"	m	class:rkFmPw
+lineEdit	include/rksetnet.h	/^		rkLnEdit* lineEdit[7];$/;"	m	class:rkSetNet
+lineEdit0	include/rkdlgfml.h	/^		rkLnEdit *lineEdit0;$/;"	m	class:rkDlgFml
+lineEdit1	include/rkdlgfml.h	/^		rkLnEdit *lineEdit1;$/;"	m	class:rkDlgFml
+lnedit	include/rkfmqryrtd.h	/^		rkLnEdit *lnedit;$/;"	m	class:rkFmQryRtd
+lnedit	include/rksetanalog.h	/^		rkLnEdit *lnedit[6];$/;"	m	class:rkSetAnalog
+lnedit	include/rksetsys.h	/^		rkLnEdit *lnedit[6];$/;"	m	class:rkSetSys
+lnedit	include/rksetvar.h	/^		rkLnEdit *lnedit[4];$/;"	m	class:rkSetVar
+loffset	common/rkcalib.h	/^	uint16_t loffset;$/;"	m	struct:SCalib
+loginform	include/rkfmpri.h	/^		rkFmPw *loginform;$/;"	m	class:rkFmPri
+ltext	include/rksetanalog.h	/^		QStringList ltext;$/;"	m	class:rkSetAnalog
+ltext	include/rksetvar.h	/^		QStringList ltext;$/;"	m	class:rkSetVar
+main	src/main.cpp	/^int main(int argc, char *argv[])$/;"	f
+mainFrame	include/rkfrm.h	/^		QFrame *mainFrame;$/;"	m	class:rkFrame
+mainframe	include/rksetdo.h	/^		QFrame *mainframe;$/;"	m	class:rkSetDo
+mainframe	include/rksetnet.h	/^		QFrame *mainframe;$/;"	m	class:rkSetNet
+mainfrm	include/rkfmaicalib.h	/^		QFrame *mainfrm;$/;"	m	class:rkFmAiCalib
+mainfrm	include/rkfmcalib.h	/^		QFrame *mainfrm;$/;"	m	class:rkFmCalib
+mainfrm	include/rkfminfo.h	/^		QFrame *mainfrm;$/;"	m	class:rkFmInfo
+mainfrm	include/rkfmqrymsg.h	/^		QFrame *mainfrm;$/;"	m	class:rkFmQryMsg
+mainfrm	include/rkfmview.h	/^		QFrame *mainfrm;$/;"	m	class:rkFmView
+mainfrm	include/rksetanalog.h	/^		QFrame *mainfrm;$/;"	m	class:rkSetAnalog
+mainfrm	include/rksetcom.h	/^		QFrame *mainfrm;$/;"	m	class:rkSetCom
+mainfrm	include/rksetdio.h	/^		QFrame *mainfrm;$/;"	m	class:rkSetDio
+mainfrm	include/rksetsys.h	/^		QFrame *mainfrm;$/;"	m	class:rkSetSys
+mainfrm	include/rksetvar.h	/^		QFrame *mainfrm;$/;"	m	class:rkSetVar
+map	include/rkfmqryrtd.h	/^		ckMap map;$/;"	m	class:rkFmQryRtd
+max	common/rkfifo.c	20;"	d	file:
+maxValue	include/rkhisto.h	/^		double maxValue;$/;"	m	class:rkHisto
+maxX	include/rkplotter.h	/^		double maxX;$/;"	m	class:PlotSettings
+maxY	include/rkplotter.h	/^		double maxY;$/;"	m	class:PlotSettings
+maxselnum	include/rkdlgsel.h	/^		int maxselnum;$/;"	m	class:rkDlgSel
+middleFrame	include/rkdlg.h	/^		QFrame *middleFrame;$/;"	m	class:rkDlg
+min	common/rkfifo.c	19;"	d	file:
+minX	include/rkplotter.h	/^		double minX;$/;"	m	class:PlotSettings
+minY	include/rkplotter.h	/^		double minY;$/;"	m	class:PlotSettings
+mntdir	common/rkusb.h	/^	char mntdir[128];$/;"	m	struct:usbdisk
+mouseDown	include/rkbtnsw.h	/^		bool        mouseDown;$/;"	m	class:rkBtnSw
+mouseDown	include/rkckbox.h	/^		bool mouseDown;$/;"	m	class:rkCkBox
+mouseMoveEvent	src/rkfrm.cpp	/^void rkFrame::mouseMoveEvent(QMouseEvent *e)$/;"	f	class:rkFrame
+mousePressEvent	src/rkbtnsw.cpp	/^void rkBtnSw::mousePressEvent(QMouseEvent *)$/;"	f	class:rkBtnSw
+mousePressEvent	src/rkckbox.cpp	/^void rkCkBox::mousePressEvent(QMouseEvent *)$/;"	f	class:rkCkBox
+mouseReleaseEvent	src/rkbtnsw.cpp	/^void rkBtnSw::mouseReleaseEvent(QMouseEvent *)$/;"	f	class:rkBtnSw
+mouseReleaseEvent	src/rkckbox.cpp	/^void rkCkBox::mouseReleaseEvent(QMouseEvent *)$/;"	f	class:rkCkBox
+mouseReleaseEvent	src/rklnedit.cpp	/^void rkLnEdit::mouseReleaseEvent(QMouseEvent *e)$/;"	f	class:rkLnEdit
+moveOffset	src/rkdlg.cpp	/^void rkDlg::moveOffset(int x, int y)$/;"	f	class:rkDlg
+msgQueryForm	include/rkfmpri.h	/^		rkMsgView *msgQueryForm;$/;"	m	class:rkFmPri
+mxPathname	include/sqlite3.h	/^  int mxPathname;          \/* Maximum file pathname length *\/$/;"	m	struct:sqlite3_vfs
+nConstraint	include/sqlite3.h	/^  int nConstraint;           \/* Number of entries in aConstraint *\/$/;"	m	struct:sqlite3_index_info
+nOrderBy	include/sqlite3.h	/^  int nOrderBy;              \/* Number of terms in the ORDER BY clause *\/$/;"	m	struct:sqlite3_index_info
+nParam	include/sqlite3.h	/^  int nParam;                     \/* Size of array aParam[] *\/$/;"	m	struct:sqlite3_rtree_geometry
+nRef	include/sqlite3.h	/^  int nRef;                       \/* NO LONGER USED *\/$/;"	m	struct:sqlite3_vtab
+name	include/rkhisto.h	/^		QString name;$/;"	m	class:rkHistoItem
+nameMap	include/rkplotter.h	/^		QMap<int, QString> nameMap;$/;"	m	class:rkPlotter
+needToFreeIdxStr	include/sqlite3.h	/^  int needToFreeIdxStr;      \/* Free idxStr using sqlite3_free() if true *\/$/;"	m	struct:sqlite3_index_info
+next	common/rkshm.h	/^	struct rkRec *next;$/;"	m	struct:rkRec	typeref:struct:rkRec::rkRec
+numXTicks	include/rkplotter.h	/^		int numXTicks;$/;"	m	class:PlotSettings
+numYTicks	include/rkplotter.h	/^		int numYTicks;$/;"	m	class:PlotSettings
+objlist	include/rkdlgsel.h	/^		QObjectList *objlist;$/;"	m	class:rkDlgSel
+oldRow	include/rkdlgfmlsel.h	/^		int oldRow;$/;"	m	class:rkDlgFmlSel
+omit	include/sqlite3.h	/^    unsigned char omit;      \/* Do not code a test for this constraint *\/$/;"	m	struct:sqlite3_index_info::sqlite3_index_constraint_usage
+op	include/sqlite3.h	/^     unsigned char op;         \/* Constraint operator *\/$/;"	m	struct:sqlite3_index_info::sqlite3_index_constraint
+orderByConsumed	include/sqlite3.h	/^  int orderByConsumed;       \/* True if output is already ordered *\/$/;"	m	struct:sqlite3_index_info
+pAppData	include/sqlite3.h	/^  void *pAppData;                \/* Argument to xInit() and xShutdown() *\/$/;"	m	struct:sqlite3_mem_methods
+pAppData	include/sqlite3.h	/^  void *pAppData;          \/* Pointer to application-specific data *\/$/;"	m	struct:sqlite3_vfs
+pArg	include/sqlite3.h	/^  void *pArg;$/;"	m	struct:sqlite3_pcache_methods
+pArg	include/sqlite3.h	/^  void *pArg;$/;"	m	struct:sqlite3_pcache_methods2
+pBuf	include/sqlite3.h	/^  void *pBuf;        \/* The content of the page *\/$/;"	m	struct:sqlite3_pcache_page
+pContext	include/sqlite3.h	/^  void *pContext;                 \/* Copy of pContext passed to s_r_g_c() *\/$/;"	m	struct:sqlite3_rtree_geometry
+pExtra	include/sqlite3.h	/^  void *pExtra;      \/* Extra information associated with the page *\/$/;"	m	struct:sqlite3_pcache_page
+pMethods	include/sqlite3.h	/^  const struct sqlite3_io_methods *pMethods;  \/* Methods for an open file *\/$/;"	m	struct:sqlite3_file	typeref:struct:sqlite3_file::sqlite3_io_methods
+pModule	include/sqlite3.h	/^  const sqlite3_module *pModule;  \/* The module for this virtual table *\/$/;"	m	struct:sqlite3_vtab
+pNext	include/sqlite3.h	/^  sqlite3_vfs *pNext;      \/* Next registered VFS *\/$/;"	m	struct:sqlite3_vfs
+pUser	include/sqlite3.h	/^  void *pUser;                    \/* Callback implementation user data *\/$/;"	m	struct:sqlite3_rtree_geometry
+pVtab	include/sqlite3.h	/^  sqlite3_vtab *pVtab;      \/* Virtual table of this cursor *\/$/;"	m	struct:sqlite3_vtab_cursor
+pagecnt	include/rkfmqryrtd.h	/^		int pagecnt;$/;"	m	class:rkFmQryRtd
+pagenum	include/rkfmqryrtd.h	/^		int pagenum;$/;"	m	class:rkFmQryRtd
+paintCounter	include/rkfmscrcalib.h	/^		int paintCounter;$/;"	m	class:rkFmScrCalib
+paintEvent	src/rkbtnsw.cpp	/^void rkBtnSw::paintEvent(QPaintEvent *)$/;"	f	class:rkBtnSw
+paintEvent	src/rkckbox.cpp	/^void rkCkBox::paintEvent(QPaintEvent *)$/;"	f	class:rkCkBox
+paintEvent	src/rkfmscrcalib.cpp	/^void rkFmScrCalib::paintEvent(QPaintEvent *)$/;"	f	class:rkFmScrCalib
+paintEvent	src/rkhisto.cpp	/^void rkHisto::paintEvent(QPaintEvent *)$/;"	f	class:rkHisto
+paintEvent	src/rkplotter.cpp	/^void rkPlotter::paintEvent(QPaintEvent * )$/;"	f	class:rkPlotter
+painter	include/rkfmscrcalib.h	/^		QPainter *painter;$/;"	m	class:rkFmScrCalib
+paramCode	include/rksetnet.h	/^		QStringList paramCode;$/;"	m	class:rkSetNet
+paramSetForm	include/rkfmpri.h	/^		rkFmSet *paramSetForm;$/;"	m	class:rkFmPri
+path	src/rkifaceoper.cpp	/^static const char *path = "\/etc\/network\/interfaces";$/;"	v	file:
+pcode	include/rksetanalog.h	/^		QStringList pcode;$/;"	m	class:rkSetAnalog
+pcode	include/rksetcom.h	/^		QStringList pcode;$/;"	m	class:rkSetCom
+pcode	include/rksetvar.h	/^		QStringList pcode;$/;"	m	class:rkSetVar
+pillarIndent	include/rkhisto.h	/^			pillarIndent = 10,$/;"	e	enum:rkHisto::rkHistoOpt
+pixmap	include/rkplotter.h	/^		QPixmap pixmap;$/;"	m	class:rkPlotter
+pixmapBackground	include/rkbtnsw.h	/^		QPixmap     pixmapBackground;$/;"	m	class:rkBtnSw
+pixmapForeground	include/rkbtnsw.h	/^		QPixmap     pixmapForeground;$/;"	m	class:rkBtnSw
+pixmapOff	include/rkckbox.h	/^		QPixmap pixmapOff;$/;"	m	class:rkCkBox
+pixmapOn	include/rkckbox.h	/^		QPixmap pixmapOn;$/;"	m	class:rkCkBox
+plib	include/rksetcom.h	/^		QStringList plib;$/;"	m	class:rkSetCom
+plotter	include/rkfmview.h	/^		rkPlotter *plotter[3];$/;"	m	class:rkFmView
+pmtlabel	include/rkfmaicalib.h	/^		QLabel *pmtlabel[8];$/;"	m	class:rkFmAiCalib
+point1	include/rkfrm.h	/^		QPoint point1; \/* Used for Keyboard position *\/$/;"	m	class:rkFrame
+point2	include/rkfrm.h	/^		QPoint point2;$/;"	m	class:rkFrame
+point3	include/rkfrm.h	/^		QPoint point3;$/;"	m	class:rkFrame
+point4	include/rkfrm.h	/^		QPoint point4;$/;"	m	class:rkFrame
+pointvector	include/rkfmview.h	/^		QValueVector<QPoint> pointvector;$/;"	m	class:rkFmView
+popupKeyboard	src/rksetanalog.cpp	/^void rkSetAnalog::popupKeyboard()$/;"	f	class:rkSetAnalog
+popupKeyboard	src/rksetcom.cpp	/^void rkSetCom::popupKeyboard()$/;"	f	class:rkSetCom
+popupKeyboard	src/rksetdio.cpp	/^void rkSetDio::popupKeyboard()$/;"	f	class:rkSetDio
+popupKeyboard	src/rksetdo.cpp	/^void rkSetDo::popupKeyboard()$/;"	f	class:rkSetDo
+popupKeyboard	src/rksetnet.cpp	/^void rkSetNet::popupKeyboard()$/;"	f	class:rkSetNet
+popupKeyboard	src/rksetsys.cpp	/^void rkSetSys::popupKeyboard()$/;"	f	class:rkSetSys
+popupKeyboard	src/rksetvar.cpp	/^void rkSetVar::popupKeyboard()$/;"	f	class:rkSetVar
+pos_x	include/rkdlgsel.h	/^		int pos_x;$/;"	m	class:rkDlgSel
+pos_y	include/rkdlgsel.h	/^		int pos_y;$/;"	m	class:rkDlgSel
+posmap	include/rkfmscrcalib.h	/^		QMap<int, QString> posmap;$/;"	m	class:rkFmScrCalib
+pressure	include/tslib.h	/^	unsigned int	pressure;$/;"	m	struct:ts_sample
+procBtnClick	src/rkdlgsel.cpp	/^void rkDlgSel::procBtnClick()$/;"	f	class:rkDlgSel
+procBtnClicked	ui/rkmsgview.ui.h	/^void rkMsgView::procBtnClicked( int id)$/;"	f	class:rkMsgView
+procBtnPressed	src/rkfmaicalib.cpp	/^void rkFmAiCalib :: procBtnPressed()$/;"	f	class:rkFmAiCalib
+procBtnPressed	src/rkfmcalib.cpp	/^void rkFmCalib :: procBtnPressed()$/;"	f	class:rkFmCalib
+procBtnPressed	src/rkfmexp.cpp	/^void rkFmExp::procBtnPressed()$/;"	f	class:rkFmExp
+procBtnPressed	src/rkfminfo.cpp	/^void rkFmInfo::procBtnPressed()$/;"	f	class:rkFmInfo
+procBtnPressed	src/rksetanalog.cpp	/^void rkSetAnalog::procBtnPressed()$/;"	f	class:rkSetAnalog
+procBtnPressed	src/rksetcom.cpp	/^void rkSetCom::procBtnPressed()$/;"	f	class:rkSetCom
+procBtnPressed	src/rksetdio.cpp	/^void rkSetDio::procBtnPressed()$/;"	f	class:rkSetDio
+procBtnPressed	src/rksetdo.cpp	/^void rkSetDo::procBtnPressed()$/;"	f	class:rkSetDo
+procBtnPressed	src/rksetnet.cpp	/^void rkSetNet::procBtnPressed()$/;"	f	class:rkSetNet
+procBtnPressed	src/rksetsys.cpp	/^void rkSetSys::procBtnPressed()$/;"	f	class:rkSetSys
+procBtnPressed	src/rksetvar.cpp	/^void rkSetVar::procBtnPressed()$/;"	f	class:rkSetVar
+procCkboxSel	src/rkdlgsel.cpp	/^void rkDlgSel::procCkboxSel(bool state)$/;"	f	class:rkDlgSel
+procCkboxSel	src/rkfmaicalib.cpp	/^void rkFmAiCalib :: procCkboxSel(bool checked)$/;"	f	class:rkFmAiCalib
+procLBtnClick	src/rkfmview.cpp	/^void rkFmView::procLBtnClick()$/;"	f	class:rkFmView
+procRBtnClick	src/rkfmview.cpp	/^void rkFmView::procRBtnClick()$/;"	f	class:rkFmView
+procUICmd	src/rktrdmsg.cpp	/^void rkTrdMsg::procUICmd(int cmd)$/;"	f	class:rkTrdMsg
+processBtnClicked	src/rkdlgfml.cpp	/^void rkDlgFml::processBtnClicked()$/;"	f	class:rkDlgFml
+processBtnClicked	src/rkfmpw.cpp	/^void rkFmPw::processBtnClicked()$/;"	f	class:rkFmPw
+processBtnClicked	src/rkfmpw.cpp	/^void rkFmPw::processBtnClicked(int index)$/;"	f	class:rkFmPw
+processButtonClicked	src/rkdlgfmlsel.cpp	/^void rkDlgFmlSel::processButtonClicked()$/;"	f	class:rkDlgFmlSel
+processEditClicked	src/rkdlgfml.cpp	/^void rkDlgFml::processEditClicked()$/;"	f	class:rkDlgFml
+processKeyPressed	src/rkdlgkb.cpp	/^void rkDlgKb:: processKeyPressed()$/;"	f	class:rkDlgKb
+processLineEditClicked	src/rkfmpw.cpp	/^void rkFmPw::processLineEditClicked()$/;"	f	class:rkFmPw
+processToggled	src/rksetnet.cpp	/^void rkSetNet::processToggled(bool toggle)$/;"	f	class:rkSetNet
+prompt	include/rkdlgsel.h	/^		QLabel *prompt;$/;"	m	class:rkDlgSel
+prompt	include/rkfmaicalib.h	/^		QString prompt;$/;"	m	class:rkFmAiCalib
+promptLable	include/rkfmpw.h	/^		QLabel * promptLable;$/;"	m	class:rkFmPw
+pt	include/rkfmscrcalib.h	/^		QPointArray pt;$/;"	m	class:rkFmScrCalib
+qryRst	include/rkfmqrymsg.h	/^		char **qryRst;$/;"	m	class:rkFmQryMsg
+qryRst	include/rkfmqryrtd.h	/^		char **qryRst;$/;"	m	class:rkFmQryRtd
+qryRst	include/rktype.h	/^	char	**qryRst;$/;"	m	struct:context
+qrywgt	include/rkfmqryrtd.h	/^		QWidget *qrywgt;$/;"	m	class:rkFmQryRtd
+queryCond	common/rkshm.h	/^typedef struct queryCond {$/;"	s
+queryCond_t	common/rkshm.h	/^} queryCond_t;$/;"	t	typeref:struct:queryCond
+queryReq	common/rkshm.h	/^typedef struct queryReq {$/;"	s
+queryReq_t	common/rkshm.h	/^} queryReq_t;$/;"	t	typeref:struct:queryReq
+query_flag	include/rktype.h	/^	uint8_t	query_flag;$/;"	m	struct:context
+qwsEventFilter	src/rkapp.cpp	/^bool rkApp::qwsEventFilter(QWSEvent *event)$/;"	f	class:rkApp
+rbtn	include/rkfmview.h	/^		QPushButton *rbtn[3];$/;"	m	class:rkFmView
+rbtnPicPrefix	include/rkfmview.h	/^		QStringList rbtnPicPrefix;$/;"	m	class:rkFmView
+readOps	common/rkfifo.h	/^	unsigned int readOps;$/;"	m	struct:fifohdr
+ready	common/rkshm.h	/^	uint8_t ready; \/* Server Ready To Transfer Data *\/$/;"	m	struct:queryReq
+rebootTimer	include/rkfmscrcalib.h	/^		int rebootTimer;$/;"	m	class:rkFmScrCalib
+rebootTimerFlag	include/rkfmscrcalib.h	/^		bool rebootTimerFlag;$/;"	m	class:rkFmScrCalib
+rect	include/rkhisto.h	/^		QRect rect;$/;"	m	class:rkHistoItem
+recvFml	src/rksetanalog.cpp	/^void rkSetAnalog::recvFml(const QString &fml)$/;"	f	class:rkSetAnalog
+recvFml	src/rksetvar.cpp	/^void rkSetVar::recvFml(const QString &formula)$/;"	f	class:rkSetVar
+recvItems	src/rksetanalog.cpp	/^void rkSetAnalog::recvItems(QString items)$/;"	f	class:rkSetAnalog
+recvItems	src/rksetsys.cpp	/^void rkSetSys::recvItems(QString items)$/;"	f	class:rkSetSys
+recvItems	src/rksetvar.cpp	/^void rkSetVar::recvItems(QString items) $/;"	f	class:rkSetVar
+recvKeyCode	src/rkdlgfml.cpp	/^void rkDlgFml::recvKeyCode(const QString & keycode)$/;"	f	class:rkDlgFml
+recvKeyCode	src/rkdlgfmlsel.cpp	/^void rkDlgFmlSel::recvKeyCode(const QString &keycode)$/;"	f	class:rkDlgFmlSel
+recvKeyCode	src/rkfmpri.cpp	/^void rkFmPri::recvKeyCode(const QString &keyCode)$/;"	f	class:rkFmPri
+recvKeyCode	src/rkfmpw.cpp	/^void rkFmPw::recvKeyCode(const QString &keycode)$/;"	f	class:rkFmPw
+recvKeyCode	src/rkfrm.cpp	/^void rkFrame::recvKeyCode(const QString &keyCode)$/;"	f	class:rkFrame
+recvKeyCode	src/rksetanalog.cpp	/^void rkSetAnalog::recvKeyCode(const QString &keycode)$/;"	f	class:rkSetAnalog
+recvKeyCode	src/rksetdio.cpp	/^void rkSetDio::recvKeyCode(const QString &keycode)$/;"	f	class:rkSetDio
+recvKeyCode	src/rksetdo.cpp	/^void rkSetDo::recvKeyCode(const QString &keycode)$/;"	f	class:rkSetDo
+recvKeyCode	src/rksetnet.cpp	/^void rkSetNet::recvKeyCode(const QString &keycode)$/;"	f	class:rkSetNet
+recvKeyCode	src/rksetsys.cpp	/^void rkSetSys::recvKeyCode(const QString &keycode)$/;"	f	class:rkSetSys
+recvKeyCode	src/rksetvar.cpp	/^void rkSetVar::recvKeyCode(const QString &keycode)$/;"	f	class:rkSetVar
+recvQryCond	ui/rkmsgview.ui.h	/^void rkMsgView::recvQryCond( int tbl_index, unsigned long start_time, unsigned long end_time )$/;"	f	class:rkMsgView
+refreshPixmap	src/rkplotter.cpp	/^void rkPlotter::refreshPixmap()$/;"	f	class:rkPlotter
+remove	src/rkdlgfmlsel.cpp	/^void rkDlgFmlSel::remove()$/;"	f	class:rkDlgFmlSel
+reserve	common/rkshm.h	/^	uint8_t reserve[2];$/;"	m	struct:queryCond
+reserve	common/rkshm.h	/^	uint8_t reserve[2];$/;"	m	struct:queryReq
+resizeEvent	src/rkplotter.cpp	/^void rkPlotter::resizeEvent(QResizeEvent *  )$/;"	f	class:rkPlotter
+rfrm	include/rksetdio.h	/^		QFrame *rfrm;$/;"	m	class:rkSetDio
+rightFrame	include/rkfrm.h	/^		QFrame *rightFrame;$/;"	m	class:rkFrame
+rightframe	include/rksetdo.h	/^		QFrame *rightframe;$/;"	m	class:rkSetDo
+rightfrm	include/rkfmqrymsg.h	/^		QFrame *rightfrm;$/;"	m	class:rkFmQryMsg
+rightfrm	include/rkfmview.h	/^		QFrame *rightfrm;$/;"	m	class:rkFmView
+rightfrm	include/rksetsys.h	/^		QFrame *rightfrm;$/;"	m	class:rkSetSys
+rkApp	include/rkapp.h	/^class rkApp : public QApplication {$/;"	c
+rkApp	src/rkapp.cpp	/^rkApp::rkApp(int argc, char **argv)$/;"	f	class:rkApp
+rkBtnKey	include/rkbtnkey.h	/^class rkBtnKey : public QPushButton $/;"	c
+rkBtnKey	src/rkbtnkey.cpp	/^rkBtnKey::rkBtnKey(QWidget *parent, const char *name)$/;"	f	class:rkBtnKey
+rkBtnSw	include/rkbtnsw.h	/^class rkBtnSw : public QWidget$/;"	c
+rkBtnSw	src/rkbtnsw.cpp	/^rkBtnSw::rkBtnSw(QWidget *parent, const char *name)$/;"	f	class:rkBtnSw
+rkCalibExec	common/rkcalib.c	/^int rkCalibExec(int id, int type)$/;"	f
+rkCalibInit	common/rkcalib.c	/^int rkCalibInit()$/;"	f
+rkCalibXmlGetNodeDepth	common/rkcalib.c	/^static int rkCalibXmlGetNodeDepth(mxml_node_t *node)$/;"	f	file:
+rkCalibXmlLoadCallBack	common/rkcalib.c	/^static mxml_type_t rkCalibXmlLoadCallBack(mxml_node_t *node)$/;"	f	file:
+rkCalibXmlSaveCallBack	common/rkcalib.c	/^static const char *rkCalibXmlSaveCallBack(mxml_node_t *node, int where)$/;"	f	file:
+rkCkBox	include/rkckbox.h	/^class rkCkBox : public QWidget$/;"	c
+rkCkBox	src/rkckbox.cpp	/^rkCkBox::rkCkBox(QWidget *parent, const char *name)$/;"	f	class:rkCkBox
+rkClearExitReq	common/rkshm.c	/^void rkClearExitReq()$/;"	f
+rkClearReloadFlag	common/rkshm.c	/^void rkClearReloadFlag()$/;"	f
+rkCliCalib	common/rkcalib.c	/^int rkCliCalib()$/;"	f
+rkClr	include/rkclr.h	/^class rkClr : public QColor$/;"	c
+rkClr	src/rkclr.cpp	/^rkClr::rkClr()$/;"	f	class:rkClr
+rkClr	src/rkclr.cpp	/^rkClr::rkClr(const QColor& c)$/;"	f	class:rkClr
+rkClr	src/rkclr.cpp	/^rkClr::rkClr(int r, int g, int b)$/;"	f	class:rkClr
+rkCoreBeatOnce	common/rkshm.c	/^int rkCoreBeatOnce(const char *ver)$/;"	f
+rkDisableDtu	common/rkshm.c	/^void rkDisableDtu(void)$/;"	f
+rkDlg	include/rkdlg.h	/^class rkDlg : public QDialog$/;"	c
+rkDlg	src/rkdlg.cpp	/^rkDlg::rkDlg(QWidget *parent, const char *name, int width, int height)$/;"	f	class:rkDlg
+rkDlgFml	include/rkdlgfml.h	/^class rkDlgFml : public rkDlg$/;"	c
+rkDlgFml	src/rkdlgfml.cpp	/^rkDlgFml::rkDlgFml(QWidget *parent, const char *name)$/;"	f	class:rkDlgFml
+rkDlgFmlSel	include/rkdlgfmlsel.h	/^class rkDlgFmlSel : public rkDlg$/;"	c
+rkDlgFmlSel	src/rkdlgfmlsel.cpp	/^rkDlgFmlSel::rkDlgFmlSel(QWidget *parent, const char *name)$/;"	f	class:rkDlgFmlSel
+rkDlgKb	include/rkdlgkb.h	/^class rkDlgKb : public QDialog$/;"	c
+rkDlgKb	src/rkdlgkb.cpp	/^rkDlgKb::rkDlgKb(QWidget *parent, const char *name, bool modal, WFlags fl)$/;"	f	class:rkDlgKb
+rkDlgSel	include/rkdlgsel.h	/^class rkDlgSel : public QDialog $/;"	c
+rkDlgSel	src/rkdlgsel.cpp	/^rkDlgSel::rkDlgSel(QWidget *parent, const char *name, bool modal, WFlags f)$/;"	f	class:rkDlgSel
+rkEnableDtu	common/rkshm.c	/^void rkEnableDtu(void)$/;"	f
+rkFifoClr	common/rkfifo.c	/^void rkFifoClr(struct fifo *fifo)$/;"	f
+rkFifoGetLen	common/rkfifo.c	/^unsigned int rkFifoGetLen(struct fifo *fifo)$/;"	f
+rkFifoInit	common/rkfifo.c	/^void rkFifoInit(struct fifo *fifo, void *addr, unsigned int size)$/;"	f
+rkFifoRd	common/rkfifo.c	/^unsigned int rkFifoRd(struct fifo *fifo, char *buf, unsigned int len)$/;"	f
+rkFifoWrt	common/rkfifo.c	/^unsigned int rkFifoWrt(struct fifo *fifo, char *buf, unsigned int len)$/;"	f
+rkFltIp	include/rkfltip.h	/^		rkFltIp(QObject *parent):QValidator(parent){};$/;"	f	class:rkFltIp
+rkFltIp	include/rkfltip.h	/^class rkFltIp : public QValidator$/;"	c
+rkFmAiCalib	include/rkfmaicalib.h	/^class rkFmAiCalib : public rkFrame$/;"	c
+rkFmAiCalib	src/rkfmaicalib.cpp	/^rkFmAiCalib :: rkFmAiCalib(QWidget *parent, const char *name)$/;"	f	class:rkFmAiCalib
+rkFmCalib	include/rkfmcalib.h	/^class rkFmCalib : public rkFrame$/;"	c
+rkFmCalib	src/rkfmcalib.cpp	/^rkFmCalib :: rkFmCalib(QWidget *parent, const char *name)$/;"	f	class:rkFmCalib
+rkFmExp	include/rkfmexp.h	/^class rkFmExp : public rkFrame$/;"	c
+rkFmExp	src/rkfmexp.cpp	/^rkFmExp::rkFmExp(QWidget *parent, const char *name)$/;"	f	class:rkFmExp
+rkFmInfo	include/rkfminfo.h	/^class rkFmInfo : public rkFrame $/;"	c
+rkFmInfo	src/rkfminfo.cpp	/^rkFmInfo::rkFmInfo(QWidget *parent, const char *name)$/;"	f	class:rkFmInfo
+rkFmPri	include/rkfmpri.h	/^class rkFmPri : public rkFrame $/;"	c
+rkFmPri	src/rkfmpri.cpp	/^rkFmPri::rkFmPri(QWidget *parent, const char *name)$/;"	f	class:rkFmPri
+rkFmPw	include/rkfmpw.h	/^class rkFmPw : public QDialog$/;"	c
+rkFmPw	src/rkfmpw.cpp	/^rkFmPw::rkFmPw(QWidget *parent, const char *name, bool modal, WFlags f)$/;"	f	class:rkFmPw
+rkFmQryMsg	include/rkfmqrymsg.h	/^class rkFmQryMsg : public rkFrame$/;"	c
+rkFmQryMsg	src/rkfmqrymsg.cpp	/^rkFmQryMsg::rkFmQryMsg(QWidget *parent, const char *name)$/;"	f	class:rkFmQryMsg
+rkFmQryRtd	include/rkfmqryrtd.h	/^class rkFmQryRtd : public QWidget$/;"	c
+rkFmQryRtd	src/rkfmqryrtd.cpp	/^rkFmQryRtd::rkFmQryRtd(QWidget *parent, const char *name)$/;"	f	class:rkFmQryRtd
+rkFmScrCalib	include/rkfmscrcalib.h	/^class rkFmScrCalib : public QWidget {$/;"	c
+rkFmScrCalib	src/rkfmscrcalib.cpp	/^rkFmScrCalib::rkFmScrCalib(QWidget *parent, const char *name)$/;"	f	class:rkFmScrCalib
+rkFmSet	include/rkfmset.h	/^class rkFmSet : public rkFrame$/;"	c
+rkFmSet	src/rkfmset.cpp	/^rkFmSet::rkFmSet(QWidget *parent, const char *name)$/;"	f	class:rkFmSet
+rkFmView	include/rkfmview.h	/^class rkFmView : public rkFrame$/;"	c
+rkFmView	src/rkfmview.cpp	/^rkFmView::rkFmView(QWidget *parent, const char *name)$/;"	f	class:rkFmView
+rkFrame	include/rkfrm.h	/^class rkFrame : public QDialog$/;"	c
+rkFrame	src/rkfrm.cpp	/^rkFrame::rkFrame(QWidget *parent, const char *name)$/;"	f	class:rkFrame
+rkGenCalibFile	common/rkcalib.c	/^int rkGenCalibFile(const char *path)$/;"	f
+rkGetCoreVersion	common/rkshm.c	/^const char *rkGetCoreVersion()$/;"	f
+rkGetGuiVersion	common/rkshm.c	/^const char *rkGetGuiVersion()$/;"	f
+rkHisto	include/rkhisto.h	/^class rkHisto : public QWidget$/;"	c
+rkHisto	src/rkhisto.cpp	/^rkHisto::rkHisto(QWidget *parent, const char *name)$/;"	f	class:rkHisto
+rkHistoItem	include/rkhisto.h	/^class rkHistoItem $/;"	c
+rkHistoOpt	include/rkhisto.h	/^		enum rkHistoOpt$/;"	g	class:rkHisto
+rkIsCoreAlive	common/rkshm.c	/^int rkIsCoreAlive()$/;"	f
+rkIsDtuDisabled	common/rkshm.c	/^int rkIsDtuDisabled()$/;"	f
+rkIsDtuEnable	common/rkshm.c	/^int rkIsDtuEnable()$/;"	f
+rkIsReloadFlagBeenSet	common/rkshm.c	/^int rkIsReloadFlagBeenSet()$/;"	f
+rkIsReqExit	common/rkshm.c	/^int rkIsReqExit()$/;"	f
+rkLnEdit	include/rklnedit.h	/^class rkLnEdit : public QLineEdit $/;"	c
+rkLnEdit	src/rklnedit.cpp	/^rkLnEdit::rkLnEdit(QWidget *parent, const char *name)$/;"	f	class:rkLnEdit
+rkParseCliArg	src/rkinit.cpp	/^void rkParseCliArg(struct context *ctx, int argc, char *argv[])$/;"	f
+rkPlotter	include/rkplotter.h	/^class rkPlotter : public QWidget$/;"	c
+rkPlotter	src/rkplotter.cpp	/^rkPlotter::rkPlotter(QWidget *parent, const char *name)$/;"	f	class:rkPlotter
+rkPutCoreVersion	common/rkshm.c	/^void rkPutCoreVersion(const char *version)$/;"	f
+rkPutGuiVersion	common/rkshm.c	/^void rkPutGuiVersion(const char *version)$/;"	f
+rkRec	common/rkshm.h	/^typedef struct rkRec{$/;"	s
+rkRec_t	common/rkshm.h	/^} rkRec_t;$/;"	t	typeref:struct:rkRec
+rkReqCoreExit	common/rkshm.c	/^void rkReqCoreExit()$/;"	f
+rkSetAnalog	include/rksetanalog.h	/^class rkSetAnalog : public rkFrame$/;"	c
+rkSetAnalog	src/rksetanalog.cpp	/^rkSetAnalog::rkSetAnalog(QWidget *parent, const char *name)$/;"	f	class:rkSetAnalog
+rkSetCom	include/rksetcom.h	/^class rkSetCom : public rkFrame$/;"	c
+rkSetCom	src/rksetcom.cpp	/^rkSetCom::rkSetCom(QWidget *parent, const char *name)$/;"	f	class:rkSetCom
+rkSetDio	include/rksetdio.h	/^class rkSetDio : public rkFrame$/;"	c
+rkSetDio	src/rksetdio.cpp	/^rkSetDio::rkSetDio(QWidget *parent, const char *name)$/;"	f	class:rkSetDio
+rkSetDo	include/rksetdo.h	/^class rkSetDo : public rkFrame$/;"	c
+rkSetDo	src/rksetdo.cpp	/^rkSetDo::rkSetDo(QWidget *parent, const char *name)$/;"	f	class:rkSetDo
+rkSetNet	include/rksetnet.h	/^class rkSetNet : public rkFrame$/;"	c
+rkSetNet	src/rksetnet.cpp	/^rkSetNet::rkSetNet(QWidget *parent, const char *name)$/;"	f	class:rkSetNet
+rkSetReloadFlag	common/rkshm.c	/^void rkSetReloadFlag()$/;"	f
+rkSetSys	include/rksetsys.h	/^class rkSetSys : public rkFrame$/;"	c
+rkSetSys	src/rksetsys.cpp	/^rkSetSys::rkSetSys(QWidget *parent, const char *name)$/;"	f	class:rkSetSys
+rkSetVar	include/rksetvar.h	/^class rkSetVar : public rkFrame$/;"	c
+rkSetVar	src/rksetvar.cpp	/^rkSetVar::rkSetVar(QWidget *parent, const char *name)$/;"	f	class:rkSetVar
+rkShmClrResult	common/rkshm.c	/^void rkShmClrResult(rkRec_t *record)$/;"	f
+rkShmDel	common/rkshm.c	/^int rkShmDel()$/;"	f
+rkShmEchoReq	common/rkshm.c	/^void rkShmEchoReq(char *result, int size)$/;"	f
+rkShmGetData	common/rkshm.c	/^int rkShmGetData(uint8_t type, uint8_t index, void *val)$/;"	f
+rkShmGetDataByFifo	common/rkshm.c	/^int rkShmGetDataByFifo(char *buf, unsigned int size)$/;"	f
+rkShmInit	common/rkshm.c	/^int rkShmInit()$/;"	f
+rkShmListenReq	common/rkshm.c	/^int rkShmListenReq(struct queryCond *cond)$/;"	f
+rkShmPushData	common/rkshm.c	/^int rkShmPushData(uint8_t type, uint8_t index, void *val)$/;"	f
+rkShmPutDataByFifo	common/rkshm.c	/^int rkShmPutDataByFifo(char *data, unsigned int len)$/;"	f
+rkShmQuery	common/rkshm.c	/^int rkShmQuery(queryCond_t *cond, rkRec_t **result)$/;"	f
+rkTabWgt	include/rktabwgt.h	/^class rkTabWgt: public QTabWidget $/;"	c
+rkTabWgt	src/rktabwgt.cpp	/^rkTabWgt::rkTabWgt(QWidget *parent, const char *name)$/;"	f	class:rkTabWgt
+rkTbl	include/rktbl.h	/^		rkTbl(QWidget *parent = 0, const char *name = 0) : QTable(parent, name) {};$/;"	f	class:rkTbl
+rkTbl	include/rktbl.h	/^class rkTbl : public QTable {$/;"	c
+rkTblItem	include/rktbl.h	/^		rkTblItem(QTable *table, EditType et, const QString &text) : QTableItem(table, et, text) {};$/;"	f	class:rkTblItem
+rkTblItem	include/rktbl.h	/^class rkTblItem : public QTableItem {$/;"	c
+rkTrdMnt	include/rktrdmnt.h	/^		rkTrdMnt() {};$/;"	f	class:rkTrdMnt
+rkTrdMnt	include/rktrdmnt.h	/^class rkTrdMnt : public QObject, public QThread {$/;"	c
+rkTrdMsg	include/rktrdmsg.h	/^		rkTrdMsg(){};$/;"	f	class:rkTrdMsg
+rkTrdMsg	include/rktrdmsg.h	/^class rkTrdMsg : public QObject, public QThread$/;"	c
+rkUsbDiskCheck	common/rkusb.c	/^int rkUsbDiskCheck(struct usbdisk *dev)$/;"	f
+rkUsbDiskMnt	common/rkusb.c	/^int rkUsbDiskMnt(struct usbdisk *dev)$/;"	f
+rkUsbDiskRemove	common/rkusb.c	/^int rkUsbDiskRemove(struct usbdisk *dev)$/;"	f
+rkXmlCreateElement	src/rkxmlproc.cpp	/^rkXmlNode *rkXmlCreateElement(rkXmlNode *parent, const char *name)$/;"	f
+rkXmlCreateNew	src/rkxmlproc.cpp	/^rkXmlNode *rkXmlCreateNew(const char *filename, const char *type)$/;"	f
+rkXmlCreateText	src/rkxmlproc.cpp	/^void rkXmlCreateText(rkXmlNode *parent, const char *text)$/;"	f
+rkXmlFree	src/rkxmlproc.cpp	/^void rkXmlFree()$/;"	f
+rkXmlGetGroupParamVal	src/rkxmlproc.cpp	/^const char *rkXmlGetGroupParamVal(const char *groupId, const char *name)$/;"	f
+rkXmlGetNodeDepth	src/rkxmlproc.cpp	/^int rkXmlGetNodeDepth(rkXmlNode *node)$/;"	f
+rkXmlGetParamVal	src/rkxmlproc.cpp	/^const char *rkXmlGetParamVal(const char *name)$/;"	f
+rkXmlLoad	src/rkxmlproc.cpp	/^rkXmlNode *rkXmlLoad(const char *filename)$/;"	f
+rkXmlLoadCallBack	src/rkxmlproc.cpp	/^rkXmlType rkXmlLoadCallBack(rkXmlNode *node)$/;"	f
+rkXmlNode	include/rkxmlproc.h	/^typedef mxml_node_t rkXmlNode;$/;"	t
+rkXmlOper	include/rkxmloper.h	/^class rkXmlOper $/;"	c
+rkXmlOper	src/rkxmloper.cpp	/^rkXmlOper::rkXmlOper(const char *filename, const char *type)$/;"	f	class:rkXmlOper
+rkXmlProc	include/rkxmlproc.h	/^} rkXmlProc;$/;"	t	typeref:struct:rk_xml_process
+rkXmlSave	src/rkxmlproc.cpp	/^int rkXmlSave()$/;"	f
+rkXmlSaveAndFree	src/rkxmlproc.cpp	/^int rkXmlSaveAndFree()$/;"	f
+rkXmlSaveCallBack	src/rkxmlproc.cpp	/^const char *rkXmlSaveCallBack(rkXmlNode *node, int where)$/;"	f
+rkXmlSetAttr	src/rkxmlproc.cpp	/^void rkXmlSetAttr(rkXmlNode *node, const char *name, const char *value)$/;"	f
+rkXmlSetGroupParamVal	src/rkxmlproc.cpp	/^int rkXmlSetGroupParamVal(const char *groupId, const char *name, const char *value)$/;"	f
+rkXmlSetParamVal	src/rkxmlproc.cpp	/^int rkXmlSetParamVal(const char *name, const char *value)$/;"	f
+rkXmlType	include/rkxmlproc.h	/^typedef mxml_type_t rkXmlType;$/;"	t
+rk_xml_process	include/rkxmlproc.h	/^typedef struct rk_xml_process {$/;"	s
+root	include/rkxmlproc.h	/^	rkXmlNode *root;$/;"	m	struct:rk_xml_process
+rootName	include/rkxmloper.h	/^		QString rootName; \/* XML Root Node's Name *\/$/;"	m	class:rkXmlOper
+rootName	include/rkxmlproc.h	/^	const char *rootName;$/;"	m	struct:rk_xml_process
+row	include/rkdlgkb.h	/^		QHBoxLayout *row;$/;"	m	class:rkDlgKb
+row	include/rkfmqryrtd.h	/^		int row;$/;"	m	class:rkFmQryRtd
+row	include/rksetanalog.h	/^		int row;$/;"	m	class:rkSetAnalog
+row	include/rksetvar.h	/^		int row;$/;"	m	class:rkSetVar
+row	include/rktype.h	/^	int		row;$/;"	m	struct:context
+rtdInfo	common/rkshm.h	/^typedef struct rtdInfo{$/;"	s
+rtdInfo_t	common/rkshm.h	/^} rtdInfo_t;$/;"	t	typeref:struct:rtdInfo
+run	src/rktrdmnt.cpp	/^void rkTrdMnt::run()$/;"	f	class:rkTrdMnt
+run	src/rktrdmsg.cpp	/^void rkTrdMsg::run()$/;"	f	class:rkTrdMsg
+s_aCalib	common/rkcalib.c	/^static struct SCalib s_aCalib[AI_NUM];$/;"	v	typeref:struct:SCalib	file:
+save	src/rkxmloper.cpp	/^int rkXmlOper::save()$/;"	f	class:rkXmlOper
+saveParamValue	src/rksetanalog.cpp	/^void rkSetAnalog::saveParamValue()$/;"	f	class:rkSetAnalog
+saveParamValue	src/rksetdio.cpp	/^void rkSetDio::saveParamValue()$/;"	f	class:rkSetDio
+saveParamValue	src/rksetdo.cpp	/^void rkSetDo::saveParamValue()$/;"	f	class:rkSetDo
+saveParamValue	src/rksetnet.cpp	/^void rkSetNet::saveParamValue()$/;"	f	class:rkSetNet
+saveParamValue	src/rksetsys.cpp	/^void rkSetSys::saveParamValue()$/;"	f	class:rkSetSys
+saveParamValue	src/rksetvar.cpp	/^void rkSetVar::saveParamValue()$/;"	f	class:rkSetVar
+savePvalue	src/rksetcom.cpp	/^void rkSetCom::savePvalue()$/;"	f	class:rkSetCom
+scanPlib	src/rksetcom.cpp	/^int rkSetCom::scanPlib(const QString & path)$/;"	f	class:rkSetCom
+scrLock	include/rkfmset.h	/^		bool scrLock; \/* Screen Lock *\/$/;"	m	class:rkFmSet
+scrcalib	src/main.cpp	/^rkFmScrCalib *scrcalib;$/;"	v
+screenOff	src/rkfrm.cpp	/^void rkFrame::screenOff(void)$/;"	f	class:rkFrame
+screenOn	src/rkfrm.cpp	/^void rkFrame::screenOn(void)$/;"	f	class:rkFrame
+scrflag	include/rktype.h	/^	uint8_t scrflag;$/;"	m	struct:context
+scroll	src/rkplotter.cpp	/^void PlotSettings::scroll(int dx, int dy)$/;"	f	class:PlotSettings
+selcnt	include/rkdlgsel.h	/^		int selcnt;$/;"	m	class:rkDlgSel
+seldlg	include/rksetanalog.h	/^		rkDlgSel *seldlg;$/;"	m	class:rkSetAnalog
+seldlg	include/rksetsys.h	/^		rkDlgSel *seldlg;$/;"	m	class:rkSetSys
+seldlg	include/rksetvar.h	/^		rkDlgSel *seldlg;$/;"	m	class:rkSetVar
+selectChanged	src/rkdlgfmlsel.cpp	/^void rkDlgFmlSel::selectChanged(int row, int)$/;"	f	class:rkDlgFmlSel
+selwgt	include/rkfmqryrtd.h	/^		QWidget *selwgt;$/;"	m	class:rkFmQryRtd
+sem	common/rkfifo.h	/^	sem_t sem;$/;"	m	struct:fifohdr
+setChecked	src/rkckbox.cpp	/^void rkCkBox::setChecked(bool val)$/;"	f	class:rkCkBox
+setColumnLabels	src/rkdlgfmlsel.cpp	/^void rkDlgFmlSel::setColumnLabels(const QStringList &labels)$/;"	f	class:rkDlgFmlSel
+setCoreStatus	src/rkfminfo.cpp	/^void rkFmInfo::setCoreStatus(bool run, const char *version)$/;"	f	class:rkFmInfo
+setCurveData	src/rkplotter.cpp	/^void rkPlotter::setCurveData(int id, const char *name, const QValueVector<QPoint> &data)$/;"	f	class:rkPlotter
+setFitSize	src/rkdlgsel.cpp	/^void rkDlgSel::setFitSize()$/;"	f	class:rkDlgSel
+setFrameSize	src/rkdlg.cpp	/^void rkDlg::setFrameSize(int width, int height)$/;"	f	class:rkDlg
+setGroupParamVal	src/rkxmloper.cpp	/^void rkXmlOper::setGroupParamVal(const char *groupId, const char *param, const char *value)$/;"	f	class:rkXmlOper
+setItemName	src/rkhisto.cpp	/^void rkHisto::setItemName(unsigned int index, const QString &name)$/;"	f	class:rkHisto
+setItemValue	src/rkhisto.cpp	/^void rkHisto::setItemValue(unsigned int index, double value)$/;"	f	class:rkHisto
+setLocalTime	src/rksetsys.cpp	/^void rkSetSys::setLocalTime()$/;"	f	class:rkSetSys
+setMaxSelect	src/rkdlgsel.cpp	/^void rkDlgSel::setMaxSelect(int num)$/;"	f	class:rkDlgSel
+setMaxValue	src/rkhisto.cpp	/^void rkHisto::setMaxValue(int maxValue)$/;"	f	class:rkHisto
+setParamVal	src/rkxmloper.cpp	/^void rkXmlOper::setParamVal(const char *name, const char *value)$/;"	f	class:rkXmlOper
+setPlotSettings	src/rkplotter.cpp	/^void rkPlotter::setPlotSettings(const PlotSettings &settings)$/;"	f	class:rkPlotter
+setSwitch	src/rkbtnsw.cpp	/^void rkBtnSw::setSwitch(bool state)$/;"	f	class:rkBtnSw
+setText	include/rktbl.h	/^		virtual void setText(int row, int col, const QString &text) {$/;"	f	class:rkTbl
+setTitle	src/rkdlg.cpp	/^void rkDlg::setTitle(const QString &title)$/;"	f	class:rkDlg
+setTitle	src/rkdlgsel.cpp	/^void rkDlgSel::setTitle(const QString& txt)$/;"	f	class:rkDlgSel
+setTitle	src/rkfrm.cpp	/^void rkFrame::setTitle(const QString &title)$/;"	f	class:rkFrame
+setWgtShown	ui/rkmsgview.ui.h	/^void rkMsgView::setWgtShown( int id)$/;"	f	class:rkMsgView
+settingForm1	include/rkfmset.h	/^		rkSetSys *settingForm1;$/;"	m	class:rkFmSet
+settingForm2	include/rkfmset.h	/^		rkSetCom *settingForm2;$/;"	m	class:rkFmSet
+settingForm3	include/rkfmset.h	/^		rkSetNet *settingForm3;$/;"	m	class:rkFmSet
+settingForm4	include/rkfmset.h	/^		rkSetAnalog *settingForm4;$/;"	m	class:rkFmSet
+settingForm5	include/rkfmset.h	/^		rkSetVar *settingForm5;$/;"	m	class:rkFmSet
+settingForm6	include/rkfmset.h	/^		rkSetDio *settingForm6;$/;"	m	class:rkFmSet
+settingForm7	include/rkfmset.h	/^		rkSetDo *settingForm7;$/;"	m	class:rkFmSet
+shmMap	common/rkshm.h	/^typedef struct shmMap {$/;"	s
+shmMap_t	common/rkshm.h	/^} shmMap_t;$/;"	t	typeref:struct:shmMap
+shmmap	common/rkshm.c	/^static struct shmMap *shmmap;$/;"	v	typeref:struct:shmMap	file:
+showEvent	src/rkfmaicalib.cpp	/^void rkFmAiCalib :: showEvent(QShowEvent *)$/;"	f	class:rkFmAiCalib
+showEvent	src/rkfmpw.cpp	/^void rkFmPw::showEvent(QShowEvent *e)$/;"	f	class:rkFmPw
+showEvent	src/rkfmscrcalib.cpp	/^void rkFmScrCalib::showEvent(QShowEvent *e)$/;"	f	class:rkFmScrCalib
+showEvent	src/rksetanalog.cpp	/^void rkSetAnalog::showEvent(QShowEvent *)$/;"	f	class:rkSetAnalog
+showEvent	src/rksetcom.cpp	/^void rkSetCom::showEvent(QShowEvent *)$/;"	f	class:rkSetCom
+showEvent	src/rksetdio.cpp	/^void rkSetDio::showEvent(QShowEvent *)$/;"	f	class:rkSetDio
+showEvent	src/rksetdo.cpp	/^void rkSetDo::showEvent(QShowEvent *)$/;"	f	class:rkSetDo
+showEvent	src/rksetnet.cpp	/^void rkSetNet::showEvent(QShowEvent *)$/;"	f	class:rkSetNet
+showEvent	src/rksetsys.cpp	/^void rkSetSys::showEvent(QShowEvent *)$/;"	f	class:rkSetSys
+showEvent	src/rksetvar.cpp	/^void rkSetVar::showEvent(QShowEvent *)$/;"	f	class:rkSetVar
+showEvent	ui/rkmsgview.ui.h	/^void rkMsgView::showEvent( QShowEvent * )$/;"	f	class:rkMsgView
+showIcon	src/rkfrm.cpp	/^void rkFrame::showIcon(IconType type)$/;"	f	class:rkFrame
+showKeyboard	src/rkfrm.cpp	/^void rkFrame::showKeyboard(int pos)$/;"	f	class:rkFrame
+showMessage	ui/rkmsgview.ui.h	/^void rkMsgView::showMessage( int index )$/;"	f	class:rkMsgView
+showMode	ui/rkmsgview.ui.h	/^void rkMsgView::showMode( int mode)$/;"	f	class:rkMsgView
+showMsgList	ui/rkmsgview.ui.h	/^void rkMsgView::showMsgList()$/;"	f	class:rkMsgView
+showSettingForm	src/rkfmpri.cpp	/^void rkFmPri::showSettingForm()$/;"	f	class:rkFmPri
+showSubform	src/rkfmpri.cpp	/^void rkFmPri::showSubform()$/;"	f	class:rkFmPri
+showSubform	src/rkfmpri.cpp	/^void rkFmPri::showSubform(int id)$/;"	f	class:rkFmPri
+size	common/rkfifo.h	/^	unsigned int size;$/;"	m	struct:fifohdr
+sizeHint	src/rkplotter.cpp	/^QSize rkPlotter::sizeHint() const$/;"	f	class:rkPlotter
+sort_by_x	src/rkfmscrcalib.cpp	/^int sort_by_x(const void* a, const void *b)$/;"	f
+sort_by_y	src/rkfmscrcalib.cpp	/^int sort_by_y(const void* a, const void *b)$/;"	f
+spanX	include/rkplotter.h	/^		double spanX() const { return maxX - minX; }$/;"	f	class:PlotSettings
+spanY	include/rkplotter.h	/^		double spanY() const { return maxY - minY; }$/;"	f	class:PlotSettings
+spinbox	include/rksetvar.h	/^		QSpinBox *spinbox;$/;"	m	class:rkSetVar
+splitTimer	include/rkfmscrcalib.h	/^		int splitTimer;$/;"	m	class:rkFmScrCalib
+splitTimerFlag	include/rkfmscrcalib.h	/^		bool splitTimerFlag;$/;"	m	class:rkFmScrCalib
+sql	include/rkfmqryrtd.h	/^		char *sql;$/;"	m	class:rkFmQryRtd
+sql	include/rktype.h	/^	char	*sql;$/;"	m	struct:context
+sqlite3	include/sqlite3.h	/^typedef struct sqlite3 sqlite3;$/;"	t	typeref:struct:sqlite3
+sqlite3_backup	include/sqlite3.h	/^typedef struct sqlite3_backup sqlite3_backup;$/;"	t	typeref:struct:sqlite3_backup
+sqlite3_blob	include/sqlite3.h	/^typedef struct sqlite3_blob sqlite3_blob;$/;"	t	typeref:struct:sqlite3_blob
+sqlite3_callback	include/sqlite3.h	/^typedef int (*sqlite3_callback)(void*,int,char**, char**);$/;"	t
+sqlite3_context	include/sqlite3.h	/^typedef struct sqlite3_context sqlite3_context;$/;"	t	typeref:struct:sqlite3_context
+sqlite3_data_directory	include/sqlite3.h	/^SQLITE_API SQLITE_EXTERN char *sqlite3_data_directory;$/;"	v
+sqlite3_destructor_type	include/sqlite3.h	/^typedef void (*sqlite3_destructor_type)(void*);$/;"	t
+sqlite3_file	include/sqlite3.h	/^struct sqlite3_file {$/;"	s
+sqlite3_file	include/sqlite3.h	/^typedef struct sqlite3_file sqlite3_file;$/;"	t	typeref:struct:sqlite3_file
+sqlite3_index_constraint	include/sqlite3.h	/^  struct sqlite3_index_constraint {$/;"	s	struct:sqlite3_index_info
+sqlite3_index_constraint_usage	include/sqlite3.h	/^  struct sqlite3_index_constraint_usage {$/;"	s	struct:sqlite3_index_info
+sqlite3_index_info	include/sqlite3.h	/^struct sqlite3_index_info {$/;"	s
+sqlite3_index_info	include/sqlite3.h	/^typedef struct sqlite3_index_info sqlite3_index_info;$/;"	t	typeref:struct:sqlite3_index_info
+sqlite3_index_orderby	include/sqlite3.h	/^  struct sqlite3_index_orderby {$/;"	s	struct:sqlite3_index_info
+sqlite3_int64	include/sqlite3.h	/^typedef sqlite_int64 sqlite3_int64;$/;"	t
+sqlite3_io_methods	include/sqlite3.h	/^struct sqlite3_io_methods {$/;"	s
+sqlite3_io_methods	include/sqlite3.h	/^typedef struct sqlite3_io_methods sqlite3_io_methods;$/;"	t	typeref:struct:sqlite3_io_methods
+sqlite3_mem_methods	include/sqlite3.h	/^struct sqlite3_mem_methods {$/;"	s
+sqlite3_mem_methods	include/sqlite3.h	/^typedef struct sqlite3_mem_methods sqlite3_mem_methods;$/;"	t	typeref:struct:sqlite3_mem_methods
+sqlite3_module	include/sqlite3.h	/^struct sqlite3_module {$/;"	s
+sqlite3_module	include/sqlite3.h	/^typedef struct sqlite3_module sqlite3_module;$/;"	t	typeref:struct:sqlite3_module
+sqlite3_mutex	include/sqlite3.h	/^typedef struct sqlite3_mutex sqlite3_mutex;$/;"	t	typeref:struct:sqlite3_mutex
+sqlite3_mutex_methods	include/sqlite3.h	/^struct sqlite3_mutex_methods {$/;"	s
+sqlite3_mutex_methods	include/sqlite3.h	/^typedef struct sqlite3_mutex_methods sqlite3_mutex_methods;$/;"	t	typeref:struct:sqlite3_mutex_methods
+sqlite3_pcache	include/sqlite3.h	/^typedef struct sqlite3_pcache sqlite3_pcache;$/;"	t	typeref:struct:sqlite3_pcache
+sqlite3_pcache_methods	include/sqlite3.h	/^struct sqlite3_pcache_methods {$/;"	s
+sqlite3_pcache_methods	include/sqlite3.h	/^typedef struct sqlite3_pcache_methods sqlite3_pcache_methods;$/;"	t	typeref:struct:sqlite3_pcache_methods
+sqlite3_pcache_methods2	include/sqlite3.h	/^struct sqlite3_pcache_methods2 {$/;"	s
+sqlite3_pcache_methods2	include/sqlite3.h	/^typedef struct sqlite3_pcache_methods2 sqlite3_pcache_methods2;$/;"	t	typeref:struct:sqlite3_pcache_methods2
+sqlite3_pcache_page	include/sqlite3.h	/^struct sqlite3_pcache_page {$/;"	s
+sqlite3_pcache_page	include/sqlite3.h	/^typedef struct sqlite3_pcache_page sqlite3_pcache_page;$/;"	t	typeref:struct:sqlite3_pcache_page
+sqlite3_rtree_geometry	include/sqlite3.h	/^struct sqlite3_rtree_geometry {$/;"	s
+sqlite3_rtree_geometry	include/sqlite3.h	/^typedef struct sqlite3_rtree_geometry sqlite3_rtree_geometry;$/;"	t	typeref:struct:sqlite3_rtree_geometry
+sqlite3_stmt	include/sqlite3.h	/^typedef struct sqlite3_stmt sqlite3_stmt;$/;"	t	typeref:struct:sqlite3_stmt
+sqlite3_syscall_ptr	include/sqlite3.h	/^typedef void (*sqlite3_syscall_ptr)(void);$/;"	t
+sqlite3_temp_directory	include/sqlite3.h	/^SQLITE_API SQLITE_EXTERN char *sqlite3_temp_directory;$/;"	v
+sqlite3_uint64	include/sqlite3.h	/^typedef sqlite_uint64 sqlite3_uint64;$/;"	t
+sqlite3_value	include/sqlite3.h	/^typedef struct Mem sqlite3_value;$/;"	t	typeref:struct:Mem
+sqlite3_version	include/sqlite3.h	/^SQLITE_API SQLITE_EXTERN const char sqlite3_version[];$/;"	v
+sqlite3_vfs	include/sqlite3.h	/^struct sqlite3_vfs {$/;"	s
+sqlite3_vfs	include/sqlite3.h	/^typedef struct sqlite3_vfs sqlite3_vfs;$/;"	t	typeref:struct:sqlite3_vfs
+sqlite3_vtab	include/sqlite3.h	/^struct sqlite3_vtab {$/;"	s
+sqlite3_vtab	include/sqlite3.h	/^typedef struct sqlite3_vtab sqlite3_vtab;$/;"	t	typeref:struct:sqlite3_vtab
+sqlite3_vtab_cursor	include/sqlite3.h	/^struct sqlite3_vtab_cursor {$/;"	s
+sqlite3_vtab_cursor	include/sqlite3.h	/^typedef struct sqlite3_vtab_cursor sqlite3_vtab_cursor;$/;"	t	typeref:struct:sqlite3_vtab_cursor
+sqlite_int64	include/sqlite3.h	/^  typedef SQLITE_INT64_TYPE sqlite_int64;$/;"	t
+sqlite_int64	include/sqlite3.h	/^  typedef __int64 sqlite_int64;$/;"	t
+sqlite_int64	include/sqlite3.h	/^  typedef long long int sqlite_int64;$/;"	t
+sqlite_uint64	include/sqlite3.h	/^  typedef unsigned SQLITE_INT64_TYPE sqlite_uint64;$/;"	t
+sqlite_uint64	include/sqlite3.h	/^  typedef unsigned __int64 sqlite_uint64;$/;"	t
+sqlite_uint64	include/sqlite3.h	/^  typedef unsigned long long int sqlite_uint64;$/;"	t
+start	common/rkshm.h	/^	time_t start;$/;"	m	struct:queryCond
+startQueryDatabase	ui/rkmsgview.ui.h	/^void rkMsgView::startQueryDatabase()$/;"	f	class:rkMsgView
+stm	include/rkfmexp.h	/^		QDateTimeEdit *stm;$/;"	m	class:rkFmExp
+switchBtn	include/rksetdo.h	/^		rkBtnSw *switchBtn[8];$/;"	m	class:rkSetDo
+switchChanged	src/rksetdo.cpp	/^void rkSetDo::switchChanged(bool value)$/;"	f	class:rkSetDo
+szOsFile	include/sqlite3.h	/^  int szOsFile;            \/* Size of subclassed sqlite3_file *\/$/;"	m	struct:sqlite3_vfs
+tabWidget	include/rkfmview.h	/^		rkTabWgt *tabWidget;$/;"	m	class:rkFmView
+table	include/rkdlgfmlsel.h	/^		QTable *table;$/;"	m	class:rkDlgFmlSel
+tbl	include/rkfmqryrtd.h	/^		rkTbl *tbl;$/;"	m	class:rkFmQryRtd
+tbl	include/rkfmview.h	/^		rkTbl *tbl[3];$/;"	m	class:rkFmView
+tbtn	include/rksetanalog.h	/^		QToolButton *tbtn;$/;"	m	class:rkSetAnalog
+tbtn	include/rksetvar.h	/^		QToolButton *tbtn;$/;"	m	class:rkSetVar
+textRectHeight	include/rkhisto.h	/^			textRectHeight = 28,$/;"	e	enum:rkHisto::rkHistoOpt
+timeEdit	include/rksetsys.h	/^		QDateTimeEdit *timeEdit;$/;"	m	class:rkSetSys
+timeLabel	include/rkfrm.h	/^		QLabel *timeLabel;$/;"	m	class:rkFrame
+timer	include/rkapp.h	/^		int timer;$/;"	m	class:rkApp
+timer1	include/rkfmaicalib.h	/^		int timer1;$/;"	m	class:rkFmAiCalib
+timer1	include/rkfminfo.h	/^		int timer1;$/;"	m	class:rkFmInfo
+timer1	include/rkfmview.h	/^		int timer1;$/;"	m	class:rkFmView
+timer1	include/rkfrm.h	/^		int timer1;$/;"	m	class:rkFrame
+timer2	include/rkfmaicalib.h	/^		int timer2;$/;"	m	class:rkFmAiCalib
+timer2	include/rkfmview.h	/^		int timer2;$/;"	m	class:rkFmView
+timer2	include/rkfrm.h	/^		int timer2;$/;"	m	class:rkFrame
+timer3	include/rkfmaicalib.h	/^		int timer3;$/;"	m	class:rkFmAiCalib
+timerEvent	src/rkapp.cpp	/^void rkApp::timerEvent(QTimerEvent *e)$/;"	f	class:rkApp
+timerEvent	src/rkfmaicalib.cpp	/^void rkFmAiCalib :: timerEvent(QTimerEvent *timer)$/;"	f	class:rkFmAiCalib
+timerEvent	src/rkfminfo.cpp	/^void rkFmInfo::timerEvent(QTimerEvent *timer)$/;"	f	class:rkFmInfo
+timerEvent	src/rkfmpri.cpp	/^void rkFmPri::timerEvent(QTimerEvent *e)$/;"	f	class:rkFmPri
+timerEvent	src/rkfmscrcalib.cpp	/^void rkFmScrCalib::timerEvent(QTimerEvent *e)$/;"	f	class:rkFmScrCalib
+timerEvent	src/rkfmview.cpp	/^void rkFmView::timerEvent(QTimerEvent *timer)$/;"	f	class:rkFmView
+timerEvent	src/rkfrm.cpp	/^void rkFrame::timerEvent(QTimerEvent *timer)$/;"	f	class:rkFrame
+timerEvent	ui/rkmsgview.ui.h	/^void rkMsgView::timerEvent( QTimerEvent * )$/;"	f	class:rkMsgView
+title	include/rkdlgsel.h	/^		QLabel *title;$/;"	m	class:rkDlgSel
+titleFrame	include/rkfrm.h	/^		QFrame *titleFrame;$/;"	m	class:rkFrame
+titleLabel	include/rkdlg.h	/^		QLabel *titleLabel;$/;"	m	class:rkDlg
+titleLabel	include/rkfrm.h	/^		QLabel *titleLabel;$/;"	m	class:rkFrame
+titleLayout	include/rkfrm.h	/^		QVBoxLayout *titleLayout;$/;"	m	class:rkFrame
+tlabel	include/rkfmview.h	/^		QStringList tlabel[3];$/;"	m	class:rkFmView
+tmedit	include/rkfmqrymsg.h	/^		QDateTimeEdit *tmedit[2];$/;"	m	class:rkFmQryMsg
+tmedit	include/rkfmqryrtd.h	/^		QDateTimeEdit *tmedit[2];$/;"	m	class:rkFmQryRtd
+tmp	src/rkifaceoper.cpp	/^static const char *tmp = ".tmp.txt";$/;"	v	file:
+topLine	include/rkfrm.h	/^		QFrame *topLine;$/;"	m	class:rkFrame
+ts	include/rkfmscrcalib.h	/^		struct tsdev *ts;$/;"	m	class:rkFmScrCalib	typeref:struct:rkFmScrCalib::tsdev
+ts_sample	include/tslib.h	/^struct ts_sample {$/;"	s
+tv	include/tslib.h	/^	struct timeval	tv;$/;"	m	struct:ts_sample	typeref:struct:ts_sample::timeval
+type	common/rkshm.h	/^	uint8_t type;$/;"	m	struct:queryCond
+updateAiTbl	src/rkfmview.cpp	/^void rkFmView::updateAiTbl()$/;"	f	class:rkFmView
+updateAiTbl	src/rkfmview.cpp	/^void rkFmView::updateAiTbl(QString &str)$/;"	f	class:rkFmView
+updateDioTbl	src/rkfmview.cpp	/^void rkFmView::updateDioTbl()$/;"	f	class:rkFmView
+updateEiTbl	src/rkfmview.cpp	/^void rkFmView::updateEiTbl()$/;"	f	class:rkFmView
+updateTime	src/rkfrm.cpp	/^void rkFrame::updateTime(void)$/;"	f	class:rkFrame
+usable	include/sqlite3.h	/^     unsigned char usable;     \/* True if this constraint is usable *\/$/;"	m	struct:sqlite3_index_info::sqlite3_index_constraint
+usbdisk	common/rkusb.h	/^typedef struct usbdisk{$/;"	s
+usbdisk_t	common/rkusb.h	/^} usbdisk_t;$/;"	t	typeref:struct:usbdisk
+usbflag	include/rktype.h	/^	uint8_t usbflag;$/;"	m	struct:context
+val	common/rkshm.h	/^	uint8_t val;$/;"	m	struct:dioInfo
+validate	src/rkfltip.cpp	/^QValidator::State rkFltIp::validate ( QString & input, int &pos ) const$/;"	f	class:rkFltIp
+validator	include/rksetnet.h	/^		QValidator *validator;$/;"	m	class:rkSetNet
+validator	include/rksetsys.h	/^		QValidator *validator;$/;"	m	class:rkSetSys
+validator	include/rksetvar.h	/^		QValidator *validator;$/;"	m	class:rkSetVar
+vals	common/rkshm.h	/^	double vals[5];$/;"	m	struct:rtdInfo
+value	include/rkhisto.h	/^		double value;$/;"	m	class:rkHistoItem
+venderLabel	include/rkfrm.h	/^		QLabel *venderLabel;$/;"	m	class:rkFrame
+version	common/rkshm.h	/^	char		version[2][8];$/;"	m	struct:shmMap
+view	include/rkfmqrymsg.h	/^		rkMsgView *view;$/;"	m	class:rkFmQryMsg
+vlabel	include/rkfminfo.h	/^		QLabel *vlabel[2];$/;"	m	class:rkFmInfo
+vlayout	include/rkfmcalib.h	/^		QVBoxLayout *vlayout;$/;"	m	class:rkFmCalib
+vlayout	include/rkfmview.h	/^		QVBoxLayout *vlayout;$/;"	m	class:rkFmView
+wgt	include/rkfmaicalib.h	/^		QWidget *wgt;$/;"	m	class:rkFmAiCalib
+wgtstack	include/rkfmaicalib.h	/^		QWidgetStack *wgtstack;$/;"	m	class:rkFmAiCalib
+writeOps	common/rkfifo.h	/^	unsigned int writeOps;$/;"	m	struct:fifohdr
+wstack	include/rkfmqryrtd.h	/^		QWidgetStack *wstack;$/;"	m	class:rkFmQryRtd
+wstack	include/rkfmview.h	/^		QWidgetStack *wstack[3];$/;"	m	class:rkFmView
+x	include/rkfmscrcalib.h	/^	int x[5], xfb[5];$/;"	m	struct:__anon5
+x	include/tslib.h	/^	int		x;$/;"	m	struct:ts_sample
+xAccess	include/sqlite3.h	/^  int (*xAccess)(sqlite3_vfs*, const char *zName, int flags, int *pResOut);$/;"	m	struct:sqlite3_vfs
+xAxisOffset	include/rkhisto.h	/^			xAxisOffset = 30,$/;"	e	enum:rkHisto::rkHistoOpt
+xBegin	include/sqlite3.h	/^  int (*xBegin)(sqlite3_vtab *pVTab);$/;"	m	struct:sqlite3_module
+xBestIndex	include/sqlite3.h	/^  int (*xBestIndex)(sqlite3_vtab *pVTab, sqlite3_index_info*);$/;"	m	struct:sqlite3_module
+xCachesize	include/sqlite3.h	/^  void (*xCachesize)(sqlite3_pcache*, int nCachesize);$/;"	m	struct:sqlite3_pcache_methods
+xCachesize	include/sqlite3.h	/^  void (*xCachesize)(sqlite3_pcache*, int nCachesize);$/;"	m	struct:sqlite3_pcache_methods2
+xCheckReservedLock	include/sqlite3.h	/^  int (*xCheckReservedLock)(sqlite3_file*, int *pResOut);$/;"	m	struct:sqlite3_io_methods
+xClose	include/sqlite3.h	/^  int (*xClose)(sqlite3_file*);$/;"	m	struct:sqlite3_io_methods
+xClose	include/sqlite3.h	/^  int (*xClose)(sqlite3_vtab_cursor*);$/;"	m	struct:sqlite3_module
+xColumn	include/sqlite3.h	/^  int (*xColumn)(sqlite3_vtab_cursor*, sqlite3_context*, int);$/;"	m	struct:sqlite3_module
+xCommit	include/sqlite3.h	/^  int (*xCommit)(sqlite3_vtab *pVTab);$/;"	m	struct:sqlite3_module
+xConnect	include/sqlite3.h	/^  int (*xConnect)(sqlite3*, void *pAux,$/;"	m	struct:sqlite3_module
+xCreate	include/sqlite3.h	/^  int (*xCreate)(sqlite3*, void *pAux,$/;"	m	struct:sqlite3_module
+xCreate	include/sqlite3.h	/^  sqlite3_pcache *(*xCreate)(int szPage, int bPurgeable);$/;"	m	struct:sqlite3_pcache_methods
+xCreate	include/sqlite3.h	/^  sqlite3_pcache *(*xCreate)(int szPage, int szExtra, int bPurgeable);$/;"	m	struct:sqlite3_pcache_methods2
+xCurrentTime	include/sqlite3.h	/^  int (*xCurrentTime)(sqlite3_vfs*, double*);$/;"	m	struct:sqlite3_vfs
+xCurrentTimeInt64	include/sqlite3.h	/^  int (*xCurrentTimeInt64)(sqlite3_vfs*, sqlite3_int64*);$/;"	m	struct:sqlite3_vfs
+xDelUser	include/sqlite3.h	/^  void (*xDelUser)(void *);       \/* Called by SQLite to clean up pUser *\/$/;"	m	struct:sqlite3_rtree_geometry
+xDelete	include/sqlite3.h	/^  int (*xDelete)(sqlite3_vfs*, const char *zName, int syncDir);$/;"	m	struct:sqlite3_vfs
+xDestroy	include/sqlite3.h	/^  int (*xDestroy)(sqlite3_vtab *pVTab);$/;"	m	struct:sqlite3_module
+xDestroy	include/sqlite3.h	/^  void (*xDestroy)(sqlite3_pcache*);$/;"	m	struct:sqlite3_pcache_methods
+xDestroy	include/sqlite3.h	/^  void (*xDestroy)(sqlite3_pcache*);$/;"	m	struct:sqlite3_pcache_methods2
+xDeviceCharacteristics	include/sqlite3.h	/^  int (*xDeviceCharacteristics)(sqlite3_file*);$/;"	m	struct:sqlite3_io_methods
+xDisconnect	include/sqlite3.h	/^  int (*xDisconnect)(sqlite3_vtab *pVTab);$/;"	m	struct:sqlite3_module
+xDlClose	include/sqlite3.h	/^  void (*xDlClose)(sqlite3_vfs*, void*);$/;"	m	struct:sqlite3_vfs
+xDlError	include/sqlite3.h	/^  void (*xDlError)(sqlite3_vfs*, int nByte, char *zErrMsg);$/;"	m	struct:sqlite3_vfs
+xDlOpen	include/sqlite3.h	/^  void *(*xDlOpen)(sqlite3_vfs*, const char *zFilename);$/;"	m	struct:sqlite3_vfs
+xEof	include/sqlite3.h	/^  int (*xEof)(sqlite3_vtab_cursor*);$/;"	m	struct:sqlite3_module
+xFetch	include/sqlite3.h	/^  int (*xFetch)(sqlite3_file*, sqlite3_int64 iOfst, int iAmt, void **pp);$/;"	m	struct:sqlite3_io_methods
+xFetch	include/sqlite3.h	/^  sqlite3_pcache_page *(*xFetch)(sqlite3_pcache*, unsigned key, int createFlag);$/;"	m	struct:sqlite3_pcache_methods2
+xFetch	include/sqlite3.h	/^  void *(*xFetch)(sqlite3_pcache*, unsigned key, int createFlag);$/;"	m	struct:sqlite3_pcache_methods
+xFileControl	include/sqlite3.h	/^  int (*xFileControl)(sqlite3_file*, int op, void *pArg);$/;"	m	struct:sqlite3_io_methods
+xFileSize	include/sqlite3.h	/^  int (*xFileSize)(sqlite3_file*, sqlite3_int64 *pSize);$/;"	m	struct:sqlite3_io_methods
+xFilter	include/sqlite3.h	/^  int (*xFilter)(sqlite3_vtab_cursor*, int idxNum, const char *idxStr,$/;"	m	struct:sqlite3_module
+xFindFunction	include/sqlite3.h	/^  int (*xFindFunction)(sqlite3_vtab *pVtab, int nArg, const char *zName,$/;"	m	struct:sqlite3_module
+xFree	include/sqlite3.h	/^  void (*xFree)(void*);          \/* Free a prior allocation *\/$/;"	m	struct:sqlite3_mem_methods
+xFullPathname	include/sqlite3.h	/^  int (*xFullPathname)(sqlite3_vfs*, const char *zName, int nOut, char *zOut);$/;"	m	struct:sqlite3_vfs
+xGetLastError	include/sqlite3.h	/^  int (*xGetLastError)(sqlite3_vfs*, int, char *);$/;"	m	struct:sqlite3_vfs
+xGetSystemCall	include/sqlite3.h	/^  sqlite3_syscall_ptr (*xGetSystemCall)(sqlite3_vfs*, const char *zName);$/;"	m	struct:sqlite3_vfs
+xInit	include/sqlite3.h	/^  int (*xInit)(void*);           \/* Initialize the memory allocator *\/$/;"	m	struct:sqlite3_mem_methods
+xInit	include/sqlite3.h	/^  int (*xInit)(void*);$/;"	m	struct:sqlite3_pcache_methods
+xInit	include/sqlite3.h	/^  int (*xInit)(void*);$/;"	m	struct:sqlite3_pcache_methods2
+xLock	include/sqlite3.h	/^  int (*xLock)(sqlite3_file*, int);$/;"	m	struct:sqlite3_io_methods
+xMalloc	include/sqlite3.h	/^  void *(*xMalloc)(int);         \/* Memory allocation function *\/$/;"	m	struct:sqlite3_mem_methods
+xMutexAlloc	include/sqlite3.h	/^  sqlite3_mutex *(*xMutexAlloc)(int);$/;"	m	struct:sqlite3_mutex_methods
+xMutexEnd	include/sqlite3.h	/^  int (*xMutexEnd)(void);$/;"	m	struct:sqlite3_mutex_methods
+xMutexEnter	include/sqlite3.h	/^  void (*xMutexEnter)(sqlite3_mutex *);$/;"	m	struct:sqlite3_mutex_methods
+xMutexFree	include/sqlite3.h	/^  void (*xMutexFree)(sqlite3_mutex *);$/;"	m	struct:sqlite3_mutex_methods
+xMutexHeld	include/sqlite3.h	/^  int (*xMutexHeld)(sqlite3_mutex *);$/;"	m	struct:sqlite3_mutex_methods
+xMutexInit	include/sqlite3.h	/^  int (*xMutexInit)(void);$/;"	m	struct:sqlite3_mutex_methods
+xMutexLeave	include/sqlite3.h	/^  void (*xMutexLeave)(sqlite3_mutex *);$/;"	m	struct:sqlite3_mutex_methods
+xMutexNotheld	include/sqlite3.h	/^  int (*xMutexNotheld)(sqlite3_mutex *);$/;"	m	struct:sqlite3_mutex_methods
+xMutexTry	include/sqlite3.h	/^  int (*xMutexTry)(sqlite3_mutex *);$/;"	m	struct:sqlite3_mutex_methods
+xNext	include/sqlite3.h	/^  int (*xNext)(sqlite3_vtab_cursor*);$/;"	m	struct:sqlite3_module
+xNextSystemCall	include/sqlite3.h	/^  const char *(*xNextSystemCall)(sqlite3_vfs*, const char *zName);$/;"	m	struct:sqlite3_vfs
+xOpen	include/sqlite3.h	/^  int (*xOpen)(sqlite3_vfs*, const char *zName, sqlite3_file*,$/;"	m	struct:sqlite3_vfs
+xOpen	include/sqlite3.h	/^  int (*xOpen)(sqlite3_vtab *pVTab, sqlite3_vtab_cursor **ppCursor);$/;"	m	struct:sqlite3_module
+xPagecount	include/sqlite3.h	/^  int (*xPagecount)(sqlite3_pcache*);$/;"	m	struct:sqlite3_pcache_methods
+xPagecount	include/sqlite3.h	/^  int (*xPagecount)(sqlite3_pcache*);$/;"	m	struct:sqlite3_pcache_methods2
+xRandomness	include/sqlite3.h	/^  int (*xRandomness)(sqlite3_vfs*, int nByte, char *zOut);$/;"	m	struct:sqlite3_vfs
+xRead	include/sqlite3.h	/^  int (*xRead)(sqlite3_file*, void*, int iAmt, sqlite3_int64 iOfst);$/;"	m	struct:sqlite3_io_methods
+xRealloc	include/sqlite3.h	/^  void *(*xRealloc)(void*,int);  \/* Resize an allocation *\/$/;"	m	struct:sqlite3_mem_methods
+xRekey	include/sqlite3.h	/^  void (*xRekey)(sqlite3_pcache*, sqlite3_pcache_page*, $/;"	m	struct:sqlite3_pcache_methods2
+xRekey	include/sqlite3.h	/^  void (*xRekey)(sqlite3_pcache*, void*, unsigned oldKey, unsigned newKey);$/;"	m	struct:sqlite3_pcache_methods
+xRelease	include/sqlite3.h	/^  int (*xRelease)(sqlite3_vtab *pVTab, int);$/;"	m	struct:sqlite3_module
+xRename	include/sqlite3.h	/^  int (*xRename)(sqlite3_vtab *pVtab, const char *zNew);$/;"	m	struct:sqlite3_module
+xRollback	include/sqlite3.h	/^  int (*xRollback)(sqlite3_vtab *pVTab);$/;"	m	struct:sqlite3_module
+xRollbackTo	include/sqlite3.h	/^  int (*xRollbackTo)(sqlite3_vtab *pVTab, int);$/;"	m	struct:sqlite3_module
+xRoundup	include/sqlite3.h	/^  int (*xRoundup)(int);          \/* Round up request size to allocation size *\/$/;"	m	struct:sqlite3_mem_methods
+xRowid	include/sqlite3.h	/^  int (*xRowid)(sqlite3_vtab_cursor*, sqlite3_int64 *pRowid);$/;"	m	struct:sqlite3_module
+xSavepoint	include/sqlite3.h	/^  int (*xSavepoint)(sqlite3_vtab *pVTab, int);$/;"	m	struct:sqlite3_module
+xSectorSize	include/sqlite3.h	/^  int (*xSectorSize)(sqlite3_file*);$/;"	m	struct:sqlite3_io_methods
+xSetSystemCall	include/sqlite3.h	/^  int (*xSetSystemCall)(sqlite3_vfs*, const char *zName, sqlite3_syscall_ptr);$/;"	m	struct:sqlite3_vfs
+xShmBarrier	include/sqlite3.h	/^  void (*xShmBarrier)(sqlite3_file*);$/;"	m	struct:sqlite3_io_methods
+xShmLock	include/sqlite3.h	/^  int (*xShmLock)(sqlite3_file*, int offset, int n, int flags);$/;"	m	struct:sqlite3_io_methods
+xShmMap	include/sqlite3.h	/^  int (*xShmMap)(sqlite3_file*, int iPg, int pgsz, int, void volatile**);$/;"	m	struct:sqlite3_io_methods
+xShmUnmap	include/sqlite3.h	/^  int (*xShmUnmap)(sqlite3_file*, int deleteFlag);$/;"	m	struct:sqlite3_io_methods
+xShrink	include/sqlite3.h	/^  void (*xShrink)(sqlite3_pcache*);$/;"	m	struct:sqlite3_pcache_methods2
+xShutdown	include/sqlite3.h	/^  void (*xShutdown)(void*);      \/* Deinitialize the memory allocator *\/$/;"	m	struct:sqlite3_mem_methods
+xShutdown	include/sqlite3.h	/^  void (*xShutdown)(void*);$/;"	m	struct:sqlite3_pcache_methods
+xShutdown	include/sqlite3.h	/^  void (*xShutdown)(void*);$/;"	m	struct:sqlite3_pcache_methods2
+xSize	include/sqlite3.h	/^  int (*xSize)(void*);           \/* Return the size of an allocation *\/$/;"	m	struct:sqlite3_mem_methods
+xSleep	include/sqlite3.h	/^  int (*xSleep)(sqlite3_vfs*, int microseconds);$/;"	m	struct:sqlite3_vfs
+xSync	include/sqlite3.h	/^  int (*xSync)(sqlite3_file*, int flags);$/;"	m	struct:sqlite3_io_methods
+xSync	include/sqlite3.h	/^  int (*xSync)(sqlite3_vtab *pVTab);$/;"	m	struct:sqlite3_module
+xTruncate	include/sqlite3.h	/^  int (*xTruncate)(sqlite3_file*, sqlite3_int64 size);$/;"	m	struct:sqlite3_io_methods
+xTruncate	include/sqlite3.h	/^  void (*xTruncate)(sqlite3_pcache*, unsigned iLimit);$/;"	m	struct:sqlite3_pcache_methods
+xTruncate	include/sqlite3.h	/^  void (*xTruncate)(sqlite3_pcache*, unsigned iLimit);$/;"	m	struct:sqlite3_pcache_methods2
+xUnfetch	include/sqlite3.h	/^  int (*xUnfetch)(sqlite3_file*, sqlite3_int64 iOfst, void *p);$/;"	m	struct:sqlite3_io_methods
+xUnlock	include/sqlite3.h	/^  int (*xUnlock)(sqlite3_file*, int);$/;"	m	struct:sqlite3_io_methods
+xUnpin	include/sqlite3.h	/^  void (*xUnpin)(sqlite3_pcache*, sqlite3_pcache_page*, int discard);$/;"	m	struct:sqlite3_pcache_methods2
+xUnpin	include/sqlite3.h	/^  void (*xUnpin)(sqlite3_pcache*, void*, int discard);$/;"	m	struct:sqlite3_pcache_methods
+xUpdate	include/sqlite3.h	/^  int (*xUpdate)(sqlite3_vtab *, int, sqlite3_value **, sqlite3_int64 *);$/;"	m	struct:sqlite3_module
+xWrite	include/sqlite3.h	/^  int (*xWrite)(sqlite3_file*, const void*, int iAmt, sqlite3_int64 iOfst);$/;"	m	struct:sqlite3_io_methods
+xfb	include/rkfmscrcalib.h	/^	int x[5], xfb[5];$/;"	m	struct:__anon5
+xmlGroupPrefix	include/rksetdio.h	/^		QString xmlGroupPrefix; \/* CHI || CHO *\/$/;"	m	class:rkSetDio
+xmlGroupPrefix	include/rksetdo.h	/^		QString xmlGroupPrefix;$/;"	m	class:rkSetDo
+xmlRootName	include/rksetanalog.h	/^		QString xmlRootName;$/;"	m	class:rkSetAnalog
+xmlRootName	include/rksetcom.h	/^		QString xmlRootName;$/;"	m	class:rkSetCom
+xmlRootName	include/rksetdio.h	/^		QString xmlRootName;$/;"	m	class:rkSetDio
+xmlRootName	include/rksetdo.h	/^		QString xmlRootName;$/;"	m	class:rkSetDo
+xmlRootName	include/rksetnet.h	/^		QString xmlRootName;$/;"	m	class:rkSetNet
+xmlRootName	include/rksetsys.h	/^		QString xmlRootName;$/;"	m	class:rkSetSys
+xmlRootName	include/rksetvar.h	/^		QString xmlRootName;$/;"	m	class:rkSetVar
+y	include/rkfmscrcalib.h	/^	int y[5], yfb[5];$/;"	m	struct:__anon5
+y	include/tslib.h	/^	int		y;$/;"	m	struct:ts_sample
+yAxisOffset	include/rkhisto.h	/^			yAxisOffset = 30,$/;"	e	enum:rkHisto::rkHistoOpt
+yfb	include/rkfmscrcalib.h	/^	int y[5], yfb[5];$/;"	m	struct:__anon5
+zErrMsg	include/sqlite3.h	/^  char *zErrMsg;                  \/* Error message from sqlite3_mprintf() *\/$/;"	m	struct:sqlite3_vtab
+zName	include/sqlite3.h	/^  const char *zName;       \/* Name of this virtual file system *\/$/;"	m	struct:sqlite3_vfs
+zoomStack	include/rkplotter.h	/^		QValueVector<PlotSettings> zoomStack;$/;"	m	class:rkPlotter
+~rkApp	include/rkapp.h	/^		virtual ~rkApp(){};$/;"	f	class:rkApp
+~rkBtnKey	include/rkbtnkey.h	/^		~rkBtnKey(){};$/;"	f	class:rkBtnKey
+~rkClr	include/rkclr.h	/^		~rkClr(){};$/;"	f	class:rkClr
+~rkDlgSel	include/rkdlgsel.h	/^		~rkDlgSel(){};$/;"	f	class:rkDlgSel
+~rkFltIp	include/rkfltip.h	/^		~rkFltIp(){};$/;"	f	class:rkFltIp
+~rkFmPri	include/rkfmpri.h	/^		~rkFmPri(){};$/;"	f	class:rkFmPri
+~rkFrame	include/rkfrm.h	/^		~rkFrame(){};$/;"	f	class:rkFrame
+~rkLnEdit	include/rklnedit.h	/^		~rkLnEdit(){};$/;"	f	class:rkLnEdit
+~rkTbl	include/rktbl.h	/^		~rkTbl(){};$/;"	f	class:rkTbl
+~rkXmlOper	include/rkxmloper.h	/^		~rkXmlOper(){};$/;"	f	class:rkXmlOper

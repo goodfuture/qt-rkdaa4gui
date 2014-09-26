@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network>
+	<parameter name="LOCALADDR">192.168.1.101</parameter>
+	<parameter name="NETMASK">255.255.255.0</parameter>
+	<parameter name="GATEWAY">192.168.1.1</parameter>
+	<parameter name="DNS">114.114.114.114</parameter>
+	<parameter name="CM">UDPCLIENT</parameter>
+	<parameter name="LOCALPORT">0</parameter>
+	<parameter name="REMOTEADDR">192.168.1.102</parameter>
+	<parameter name="REMOTEPORT">1234</parameter>
+</network>
